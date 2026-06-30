@@ -1,0 +1,1818 @@
+{
+  "schemaVersion": "1.1",
+  "fund": "DAW CAPITAL",
+  "portco": "PC1",
+  "portcoName": "Vantage Managed Services",
+  "generatedAt": "2026-06-13T13:00:00Z",
+  "runId": "run_20260613T1300",
+  "sourceDocuments": [
+    {
+      "path": "data/portcos/PC1/inbox/markdown/q2-2026-board-deck.md",
+      "ingestedAt": "2026-06-12T14:28:00Z"
+    },
+    {
+      "path": "data/portcos/PC1/inbox/markdown/leadership-assessment-2026.md",
+      "ingestedAt": "2026-06-12T14:28:40Z"
+    },
+    {
+      "path": "data/portcos/PC1/inbox/markdown/value-creation-plan-v4.md",
+      "ingestedAt": "2026-06-12T14:29:10Z"
+    },
+    {
+      "path": "data/portcos/PC1/inbox/markdown/interview-notes-exec-panel.md",
+      "ingestedAt": "2026-06-12T14:29:30Z"
+    },
+    {
+      "path": "data/portcos/PC1/inbox/markdown/360-feedback-2026.md",
+      "ingestedAt": "2026-06-13T12:55:00Z"
+    },
+    {
+      "path": "data/portcos/PC1/inbox/markdown/target-scorecards.md",
+      "ingestedAt": "2026-06-13T12:56:00Z"
+    }
+  ],
+  "portcoSummary": {
+    "talentRiskRYG": "yellow",
+    "evAtRisk": 45000000,
+    "trackingOnVCP": "yellow",
+    "trending": "neutral",
+    "highPotentialCount": 4,
+    "atRiskCount": 1,
+    "keyRisks": [
+      "CTO (Sørensen) is the highest single people-linked EV exposure (~$26M) and a top-decile flight risk on a single-threaded cyber/cloud platform",
+      "CRO (Halvorsen) is behind plan on the thesis-critical recurring-revenue motion — the one red workstream (~$9M EV drag)",
+      "CFO (Balakrishnan) carries key-person risk on lender + integration-accounting relationships with no finance bench"
+    ],
+    "headline": "Strong operating core (CEO, COO, CTO) tracking the thesis, but two acute people risks: a top-decile CTO flight risk on ~$26M of EV and a CRO behind on the recurring-revenue conversion that is the red workstream."
+  },
+  "executives": [
+    {
+      "id": "pc1_ceo",
+      "name": "Marcus Reuben",
+      "role": "CEO",
+      "interviewPerformance": {
+        "score": 4.4,
+        "ryg": "green",
+        "basis": "org-DD-at-close"
+      },
+      "currentStatePerformance": {
+        "score": 4.1,
+        "ryg": "green"
+      },
+      "futureStatePerformance": {
+        "score": 3.9,
+        "ryg": "green"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Close tuck-in #2",
+        "Add an NRR gate to balance the new-logo focus",
+        "Formalize Walsh as successor"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": true,
+      "successionShortTerm": {
+        "successor": "COO (D. Walsh)",
+        "readiness": "ready-now"
+      },
+      "successionLongTerm": {
+        "successor": "COO (D. Walsh)",
+        "readiness": "developing"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.9
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 4
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 4.1
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 4.1
+        }
+      ],
+      "successionReadiness": {
+        "level": "high",
+        "ryg": "green"
+      },
+      "tenureMonths": 32,
+      "directCost": 940000,
+      "estimatedEVImpact": 44000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "ahead",
+        "ryg": "green"
+      },
+      "trending": "neutral",
+      "signal": {
+        "strength": "high",
+        "confidence": 0.86
+      },
+      "nineBox": {
+        "performance": "high",
+        "potential": "high",
+        "cell": "1A"
+      },
+      "keyRisks": [
+        "Over-weights net-new logos vs. same-client NRR",
+        "Carries the M&A / buy-and-build largely himself"
+      ],
+      "additionalComments": "Platform-CEO driving the buy-and-build with high board confidence. Stable-high; the engine behind both tuck-in pipelines.",
+      "actionability": {
+        "recommendation": "Protect and incentivize; add an NRR gate; formalize the COO as successor",
+        "level": "medium"
+      },
+      "evidence": [
+        {
+          "field": "currentStatePerformance",
+          "finding": "Board confirms Marcus has hit every board gate and closed the first tuck-in cleanly.",
+          "quote": "Marcus has hit every board gate and closed the first tuck-in cleanly.",
+          "document": "data/portcos/PC1/inbox/markdown/q2-2026-board-deck.md",
+          "documentTitle": "Q2 2026 Board Deck",
+          "location": "p.6, §CEO Review",
+          "speaker": "",
+          "speakerRole": "Board Chair",
+          "type": "supporting"
+        },
+        {
+          "field": "futureStatePerformance",
+          "finding": "A direct report flags that Marcus carries the M&A himself and should let the COO own more of it — the new-logo-vs-NRR balance is the future-state gap.",
+          "quote": "I'd run through a wall for Marcus. I just wish he'd let Devin own more of the M&A.",
+          "document": "data/portcos/PC1/inbox/markdown/360-feedback-2026.md",
+          "documentTitle": "360 Feedback 2026",
+          "location": "§CEO",
+          "speaker": "",
+          "speakerRole": "Direct report",
+          "type": "supporting"
+        }
+      ],
+      "flags": [],
+      "derisicingQuestions": [
+        "What is the same-client NRR trend excluding new logos?"
+      ],
+      "suggestedActions": [
+        "Add an NRR gate to the VCP to balance the new-logo focus"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "Long-term equity refresh under discussion"
+      ],
+      "insights": [
+        {
+          "id": "pc1_ceo_i1",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Over-weights net-new logos vs. same-client NRR",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo",
+            "estimatedEVImpact",
+            "whatDroveEVErosion",
+            "trackingOnVCP",
+            "directCost"
+          ]
+        },
+        {
+          "id": "pc1_ceo_i2",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Add an NRR gate to the VCP to balance the new-logo focus",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo",
+            "estimatedEVImpact",
+            "whatDroveEVErosion",
+            "trackingOnVCP",
+            "directCost"
+          ]
+        },
+        {
+          "id": "pc1_ceo_i3",
+          "evidenceRefs": [],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Risk mitigation in flight",
+          "detail": "Long-term equity refresh under discussion",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc1_ceo_i4",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "What is the same-client NRR trend excluding new logos?",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo",
+            "estimatedEVImpact",
+            "whatDroveEVErosion",
+            "trackingOnVCP",
+            "directCost"
+          ]
+        },
+        {
+          "id": "pc1_ceo_i5",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Protect and incentivize; add an NRR gate; formalize the COO as successor",
+          "level": "medium",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc1_cfo",
+      "name": "Priya Balakrishnan",
+      "role": "CFO",
+      "interviewPerformance": {
+        "score": 3.8,
+        "ryg": "green",
+        "basis": "scorecard-at-hire"
+      },
+      "currentStatePerformance": {
+        "score": 3.6,
+        "ryg": "yellow"
+      },
+      "futureStatePerformance": {
+        "score": 3,
+        "ryg": "yellow"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Hire a VP Finance",
+        "Map and transfer lender relationships",
+        "Close cycle <= 7 days"
+      ],
+      "riskOfLoss": {
+        "level": "medium",
+        "ryg": "yellow"
+      },
+      "highPotential": false,
+      "successionShortTerm": {
+        "successor": "None identified",
+        "readiness": "gap"
+      },
+      "successionLongTerm": {
+        "successor": "External search required",
+        "readiness": "gap"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.8
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 3.7
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 3.6
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 3.6
+        }
+      ],
+      "successionReadiness": {
+        "level": "low",
+        "ryg": "red"
+      },
+      "tenureMonths": 23,
+      "directCost": 580000,
+      "estimatedEVImpact": 10000000,
+      "whatDroveEVErosion": "Slow 12-business-day close delayed lender reporting twice and held up the tuck-in #2 close; ~$4M timing value at risk.",
+      "trackingOnVCP": {
+        "status": "at-risk",
+        "ryg": "yellow"
+      },
+      "trending": "neutral",
+      "signal": {
+        "strength": "medium",
+        "confidence": 0.71
+      },
+      "nineBox": {
+        "performance": "medium",
+        "potential": "medium",
+        "cell": "2B"
+      },
+      "keyRisks": [
+        "Single point of failure on lender + integration-accounting relationships",
+        "No finance bench",
+        "Slow 12-day close"
+      ],
+      "additionalComments": "Technically excellent finance leader; high-potential is gated by delegation runway, not ability. Key-person risk with no number two in finance today.",
+      "actionability": {
+        "recommendation": "Open VP Finance search immediately; force relationship documentation/transfer; retention grant",
+        "level": "high"
+      },
+      "evidence": [
+        {
+          "field": "whatDroveEVErosion",
+          "finding": "CFO concedes the 12-day close slipped again this quarter and the lender noticed — a covenant- and integration-timing risk.",
+          "quote": "Our close took 12 days again this quarter and the lender noticed.",
+          "document": "data/portcos/PC1/inbox/markdown/q2-2026-board-deck.md",
+          "documentTitle": "Q2 2026 Board Deck",
+          "location": "p.11, §Finance",
+          "speaker": "P. Balakrishnan",
+          "speakerRole": "CFO",
+          "type": "supporting"
+        },
+        {
+          "field": "successionReadiness",
+          "finding": "A peer confirms everything routes through Priya — reporting stops if she is out, evidencing zero bench.",
+          "quote": "Everything routes through Priya. If she's out, reporting stops.",
+          "document": "data/portcos/PC1/inbox/markdown/360-feedback-2026.md",
+          "documentTitle": "360 Feedback 2026",
+          "location": "§CFO",
+          "speaker": "",
+          "speakerRole": "Peer",
+          "type": "supporting"
+        }
+      ],
+      "flags": [
+        "key-person-risk"
+      ],
+      "derisicingQuestions": [
+        "Which lender relationships are documented vs. in Priya's head?",
+        "What is the retention package and is it enough?"
+      ],
+      "suggestedActions": [
+        "Open VP Finance search immediately",
+        "Map and transfer lender relationships"
+      ],
+      "deviations": [
+        {
+          "kind": "stakeholder-contradiction",
+          "detail": "CEO frames retention risk as low; assessor rates it medium-high."
+        }
+      ],
+      "riskMitigations": [
+        "Retention grant + relationship transfer plan"
+      ],
+      "insights": [
+        {
+          "id": "pc1_cfo_i1",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "flag",
+          "severity": "critical",
+          "title": "Key-person risk",
+          "code": "key-person-risk",
+          "detail": "",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc1_cfo_i2",
+          "evidenceRefs": [],
+          "type": "stakeholder-disagreement",
+          "subtype": "stakeholder-contradiction",
+          "severity": "warning",
+          "title": "Stakeholder disagreement",
+          "detail": "CEO frames retention risk as low; assessor rates it medium-high.",
+          "parties": [
+            "CEO (M. Reuben)",
+            "Assessor (Talent DD)"
+          ],
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc1_cfo_i3",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Single point of failure on lender + integration-accounting relationships",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc1_cfo_i4",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "No finance bench",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc1_cfo_i5",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Open VP Finance search immediately",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc1_cfo_i6",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Map and transfer lender relationships",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc1_cfo_i7",
+          "evidenceRefs": [],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Risk mitigation in flight",
+          "detail": "Retention grant + relationship transfer plan",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc1_cfo_i8",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Which lender relationships are documented vs. in Priya's head?",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc1_cfo_i9",
+          "evidenceRefs": [],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "What is the retention package and is it enough?",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc1_cfo_i10",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Open VP Finance search immediately; force relationship documentation/transfer; retention grant",
+          "level": "high",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc1_coo",
+      "name": "Devin Walsh",
+      "role": "COO",
+      "interviewPerformance": {
+        "score": 4,
+        "ryg": "green",
+        "basis": "org-DD-at-close"
+      },
+      "currentStatePerformance": {
+        "score": 4.3,
+        "ryg": "green"
+      },
+      "futureStatePerformance": {
+        "score": 4.2,
+        "ryg": "green"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Land offshore pod at target cost-to-serve",
+        "Mature VP Delivery to relieve his bandwidth"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": true,
+      "successionShortTerm": {
+        "successor": "VP Delivery (T. Iglesias)",
+        "readiness": "developing"
+      },
+      "successionLongTerm": {
+        "successor": "VP Delivery (T. Iglesias)",
+        "readiness": "developing"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 4
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 4.1
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 4.2
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 4.3
+        }
+      ],
+      "successionReadiness": {
+        "level": "medium",
+        "ryg": "yellow"
+      },
+      "tenureMonths": 29,
+      "directCost": 560000,
+      "estimatedEVImpact": 30000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "ahead",
+        "ryg": "green"
+      },
+      "trending": "up",
+      "signal": {
+        "strength": "high",
+        "confidence": 0.88
+      },
+      "nineBox": {
+        "performance": "high",
+        "potential": "high",
+        "cell": "1A"
+      },
+      "keyRisks": [
+        "Stretched across run-the-business ops + the delivery transformation; burnout/bandwidth risk"
+      ],
+      "additionalComments": "The operating engine and clear CEO successor. Drove managed-services gross margin up ~600bps; his own backfill is the gating succession item.",
+      "actionability": {
+        "recommendation": "Formalize as CEO-successor; protect his bandwidth by maturing VP Delivery faster",
+        "level": "medium"
+      },
+      "evidence": [
+        {
+          "field": "currentStatePerformance",
+          "finding": "CFO confirms managed-services gross margin is up almost six points since Devin took the transformation — strong operating delivery.",
+          "quote": "Managed-services gross margin is up almost six points since Devin took the transformation.",
+          "document": "data/portcos/PC1/inbox/markdown/q2-2026-board-deck.md",
+          "documentTitle": "Q2 2026 Board Deck",
+          "location": "p.8, §Operations",
+          "speaker": "P. Balakrishnan",
+          "speakerRole": "CFO",
+          "type": "supporting"
+        },
+        {
+          "field": "riskOfLoss",
+          "finding": "A direct report warns Devin is doing two jobs and the real loss risk is burnout, not a competitor.",
+          "quote": "Devin is doing two jobs. We'll lose him to burnout before we lose him to a competitor.",
+          "document": "data/portcos/PC1/inbox/markdown/360-feedback-2026.md",
+          "documentTitle": "360 Feedback 2026",
+          "location": "§COO",
+          "speaker": "",
+          "speakerRole": "Direct report",
+          "type": "supporting"
+        }
+      ],
+      "flags": [
+        "hi-po"
+      ],
+      "derisicingQuestions": [
+        "Is he at risk of burnout carrying both ops and the transformation?"
+      ],
+      "suggestedActions": [
+        "Mature VP Delivery to relieve his bandwidth"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "Bandwidth relief via maturing VP Delivery"
+      ],
+      "insights": [
+        {
+          "id": "pc1_coo_i1",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "flag",
+          "severity": "positive",
+          "title": "High potential",
+          "code": "hi-po",
+          "detail": "",
+          "relevantFields": [
+            "highPotential",
+            "nineBox",
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo"
+          ]
+        },
+        {
+          "id": "pc1_coo_i2",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Stretched across run-the-business ops + the delivery transformation; burnout/bandwidth risk",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo",
+            "actionability"
+          ]
+        },
+        {
+          "id": "pc1_coo_i3",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Mature VP Delivery to relieve his bandwidth",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness",
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo"
+          ]
+        },
+        {
+          "id": "pc1_coo_i4",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Risk mitigation in flight",
+          "detail": "Bandwidth relief via maturing VP Delivery",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo",
+            "actionability"
+          ]
+        },
+        {
+          "id": "pc1_coo_i5",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Is he at risk of burnout carrying both ops and the transformation?",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc1_coo_i6",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Formalize as CEO-successor; protect his bandwidth by maturing VP Delivery faster",
+          "level": "medium",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc1_cto",
+      "name": "Anika Sørensen",
+      "role": "CTO",
+      "interviewPerformance": {
+        "score": 3.9,
+        "ryg": "green",
+        "basis": "scorecard-at-hire"
+      },
+      "currentStatePerformance": {
+        "score": 4.2,
+        "ryg": "green"
+      },
+      "futureStatePerformance": {
+        "score": 4,
+        "ryg": "green"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Cyber attach >= 45%",
+        "MDR uptime 99.9%",
+        "Deputy architect hired",
+        "Retention package closed"
+      ],
+      "riskOfLoss": {
+        "level": "high",
+        "ryg": "red"
+      },
+      "highPotential": true,
+      "successionShortTerm": {
+        "successor": "None ready internal",
+        "readiness": "gap"
+      },
+      "successionLongTerm": {
+        "successor": "Principal architect (long-term only)",
+        "readiness": "developing"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.9
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 4
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 4.1
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 4.2
+        }
+      ],
+      "successionReadiness": {
+        "level": "low",
+        "ryg": "red"
+      },
+      "tenureMonths": 26,
+      "directCost": 510000,
+      "estimatedEVImpact": 26000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "ahead",
+        "ryg": "green"
+      },
+      "trending": "up",
+      "signal": {
+        "strength": "high",
+        "confidence": 0.84
+      },
+      "nineBox": {
+        "performance": "high",
+        "potential": "high",
+        "cell": "1A"
+      },
+      "keyRisks": [
+        "Flight risk on the platform's architect; fielded an external approach this quarter",
+        "Thin bench; ~$26M of EV rides on the single-threaded cyber-attach platform she owns",
+        "Below-market retention package"
+      ],
+      "additionalComments": "Owns the cloud + security platform — the brightest spot in the thesis (cyber attach ahead of plan). The highest-priority retention risk in the portfolio; scaling people-leadership is the soft spot vs the future-state target.",
+      "actionability": {
+        "recommendation": "Close a market-rate retention + equity package this quarter; backfill a deputy architect to reduce single-threading",
+        "level": "high"
+      },
+      "evidence": [
+        {
+          "field": "riskOfLoss",
+          "finding": "An external CISO advisor warns Sørensen is top-decile and heavily recruited — retention depends on paying her like she is irreplaceable.",
+          "quote": "She's top-decile and the market knows it. You'll get two years if you pay her like she's irreplaceable.",
+          "document": "data/portcos/PC1/inbox/markdown/interview-notes-exec-panel.md",
+          "documentTitle": "Interview Notes — Exec Panel",
+          "location": "§CTO panel",
+          "speaker": "",
+          "speakerRole": "External CISO advisor",
+          "type": "supporting"
+        },
+        {
+          "field": "keyRisks",
+          "finding": "A direct report confirms too much of the platform lives in her head — single-threading would be felt immediately if she left.",
+          "quote": "Too much of the platform lives in her head; if she left we'd feel it immediately.",
+          "document": "data/portcos/PC1/inbox/markdown/360-feedback-2026.md",
+          "documentTitle": "360 Feedback 2026",
+          "location": "§CTO",
+          "speaker": "",
+          "speakerRole": "Direct report",
+          "type": "supporting"
+        }
+      ],
+      "flags": [
+        "flight-risk",
+        "hi-po"
+      ],
+      "derisicingQuestions": [
+        "Is the retention + equity package competitive enough to hold her two years?",
+        "How quickly can a deputy architect de-single-thread the platform?"
+      ],
+      "suggestedActions": [
+        "Close a market-rate retention + equity package this quarter",
+        "Hire a deputy architect"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "Retention + equity package in negotiation; deputy-architect search opening"
+      ],
+      "insights": [
+        {
+          "id": "pc1_cto_i1",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "flag",
+          "severity": "critical",
+          "title": "Flight risk",
+          "code": "flight-risk",
+          "detail": "",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "estimatedEVImpact",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc1_cto_i2",
+          "evidenceRefs": [],
+          "type": "flag",
+          "severity": "positive",
+          "title": "High potential",
+          "code": "hi-po",
+          "detail": "",
+          "relevantFields": [
+            "highPotential",
+            "nineBox",
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo"
+          ]
+        },
+        {
+          "id": "pc1_cto_i3",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "key-risk",
+          "severity": "critical",
+          "title": "Key risk",
+          "detail": "Thin bench; ~$26M of EV rides on the single-threaded cyber-attach platform she owns",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "estimatedEVImpact",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc1_cto_i4",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Close a market-rate retention + equity package this quarter",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "estimatedEVImpact"
+          ]
+        },
+        {
+          "id": "pc1_cto_i5",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Hire a deputy architect",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc1_cto_i6",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Risk mitigation in flight",
+          "detail": "Retention + equity package in negotiation; deputy-architect search opening",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "estimatedEVImpact",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc1_cto_i7",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Is the retention + equity package competitive enough to hold her two years?",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "estimatedEVImpact"
+          ]
+        },
+        {
+          "id": "pc1_cto_i8",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "How quickly can a deputy architect de-single-thread the platform?",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc1_cto_i9",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Close a market-rate retention + equity package this quarter; backfill a deputy architect to reduce single-threading",
+          "level": "high",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc1_cro",
+      "name": "Brad Halvorsen",
+      "role": "CRO",
+      "interviewPerformance": {
+        "score": 3.5,
+        "ryg": "yellow",
+        "basis": "scorecard-at-hire"
+      },
+      "currentStatePerformance": {
+        "score": 3,
+        "ryg": "yellow"
+      },
+      "futureStatePerformance": {
+        "score": 2.7,
+        "ryg": "red"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Recurring mix >= 62%",
+        "NRR >= 110%",
+        "Comp plan re-weighted to recurring + NRR",
+        "Two project->managed reference conversions"
+      ],
+      "riskOfLoss": {
+        "level": "medium",
+        "ryg": "yellow"
+      },
+      "highPotential": false,
+      "successionShortTerm": {
+        "successor": "None internal",
+        "readiness": "gap"
+      },
+      "successionLongTerm": {
+        "successor": "External search likely",
+        "readiness": "gap"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.5
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 3.3
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 3.1
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 3
+        }
+      ],
+      "successionReadiness": {
+        "level": "low",
+        "ryg": "red"
+      },
+      "tenureMonths": 18,
+      "directCost": 440000,
+      "estimatedEVImpact": 8000000,
+      "whatDroveEVErosion": "Recurring conversion ~$3.2M ARR behind plan; GTM still hero-led on net-new logos. Modeled EV drag ~$9M at exit multiple.",
+      "trackingOnVCP": {
+        "status": "behind",
+        "ryg": "red"
+      },
+      "trending": "down",
+      "signal": {
+        "strength": "medium",
+        "confidence": 0.68
+      },
+      "nineBox": {
+        "performance": "low",
+        "potential": "medium",
+        "cell": "3B"
+      },
+      "keyRisks": [
+        "Recurring conversion behind plan (the one red workstream)",
+        "GTM not yet a repeatable engine; still hero-led on net-new logos",
+        "Hiring-era public-record discrepancy now looks predictive"
+      ],
+      "additionalComments": "Revenue leader behind plan on the thesis-critical recurring-revenue motion — the largest performance gap on the team. Recurring-conversion dimension Emerging vs the Strong target.",
+      "actionability": {
+        "recommendation": "90-day performance plan with recurring-conversion + NRR gates; line up an external CRO search in parallel",
+        "level": "high"
+      },
+      "evidence": [
+        {
+          "field": "trackingOnVCP",
+          "finding": "CEO confirms bookings are fine but the mix is off — the team is still selling projects, not managed services.",
+          "quote": "Bookings are fine; it's the mix that's off - we're still selling projects, not managed services.",
+          "document": "data/portcos/PC1/inbox/markdown/q2-2026-board-deck.md",
+          "documentTitle": "Q2 2026 Board Deck",
+          "location": "p.7, §Revenue",
+          "speaker": "M. Reuben",
+          "speakerRole": "CEO",
+          "type": "supporting"
+        },
+        {
+          "field": "whatDroveEVErosion",
+          "finding": "VCP names recurring conversion as the one red workstream, owned by Brad and ~$3.2M of ARR behind.",
+          "quote": "Recurring conversion is the one red workstream - Brad owns it and it's ~$3.2M of ARR behind.",
+          "document": "data/portcos/PC1/inbox/markdown/value-creation-plan-v4.md",
+          "documentTitle": "Value Creation Plan v4",
+          "location": "p.4, WS1",
+          "speaker": "",
+          "speakerRole": "VCP Owner",
+          "type": "supporting"
+        }
+      ],
+      "flags": [
+        "below-plan"
+      ],
+      "derisicingQuestions": [
+        "Is this a capability gap or a GTM-model gap?",
+        "Can the comp plan be re-weighted to recurring + NRR in time?"
+      ],
+      "suggestedActions": [
+        "Put on a 90-day plan with recurring-conversion + NRR gates",
+        "Line up an external CRO search in parallel"
+      ],
+      "deviations": [
+        {
+          "kind": "public-record-discrepancy",
+          "detail": "Hire-time claim of 'leading a $40M turnaround' corroborated only as 'contributed to.'"
+        },
+        {
+          "kind": "self-rater-gap",
+          "detail": "360 self-vs-rater gap: rates himself a full point above every rater group."
+        }
+      ],
+      "riskMitigations": [
+        "90-day plan with gates; parallel external CRO search"
+      ],
+      "insights": [
+        {
+          "id": "pc1_cro_i1",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "flag",
+          "severity": "warning",
+          "title": "Below plan",
+          "code": "below-plan",
+          "detail": "",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo",
+            "estimatedEVImpact",
+            "whatDroveEVErosion",
+            "trackingOnVCP",
+            "directCost"
+          ]
+        },
+        {
+          "id": "pc1_cro_i2",
+          "evidenceRefs": [],
+          "type": "stakeholder-disagreement",
+          "subtype": "public-record-discrepancy",
+          "severity": "warning",
+          "title": "Public-record discrepancy",
+          "detail": "Hire-time claim of 'leading a $40M turnaround' corroborated only as 'contributed to.'",
+          "parties": [
+            "Hire-time claim (public record)",
+            "Reference / current results"
+          ],
+          "relevantFields": [
+            "interviewPerformance",
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc1_cro_i3",
+          "evidenceRefs": [],
+          "type": "stakeholder-disagreement",
+          "subtype": "self-rater-gap",
+          "severity": "warning",
+          "title": "Self-vs-rater gap",
+          "detail": "360 self-vs-rater gap: rates himself a full point above every rater group.",
+          "parties": [
+            "Self-rating",
+            "Rater groups (360)"
+          ],
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance"
+          ]
+        },
+        {
+          "id": "pc1_cro_i4",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "key-risk",
+          "severity": "critical",
+          "title": "Key risk",
+          "detail": "Recurring conversion behind plan (the one red workstream)",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "whatDroveEVErosion",
+            "trackingOnVCP",
+            "directCost",
+            "currentStatePerformance",
+            "futureStatePerformance"
+          ]
+        },
+        {
+          "id": "pc1_cro_i5",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "GTM not yet a repeatable engine; still hero-led on net-new logos",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "trackingOnVCP",
+            "indicatorsOfSuccess3to6mo"
+          ]
+        },
+        {
+          "id": "pc1_cro_i6",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Put on a 90-day plan with recurring-conversion + NRR gates",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "whatDroveEVErosion",
+            "trackingOnVCP",
+            "directCost",
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "indicatorsOfSuccess3to6mo"
+          ]
+        },
+        {
+          "id": "pc1_cro_i7",
+          "evidenceRefs": [],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Line up an external CRO search in parallel",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc1_cro_i8",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Risk mitigation in flight",
+          "detail": "90-day plan with gates; parallel external CRO search",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc1_cro_i9",
+          "evidenceRefs": [],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Is this a capability gap or a GTM-model gap?",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo"
+          ]
+        },
+        {
+          "id": "pc1_cro_i10",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "90-day performance plan with recurring-conversion + NRR gates; line up an external CRO search in parallel",
+          "level": "high",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc1_vpdelivery",
+      "name": "Tomás Iglesias",
+      "role": "VP Delivery",
+      "interviewPerformance": {
+        "score": 3.6,
+        "ryg": "yellow",
+        "basis": "scorecard-at-hire"
+      },
+      "currentStatePerformance": {
+        "score": 3.5,
+        "ryg": "yellow"
+      },
+      "futureStatePerformance": {
+        "score": 3.6,
+        "ryg": "yellow"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Offshore NOC/SOC pod go-live Q3-26 at target cost-to-serve",
+        "Automation deflects >= 25% of L1 tickets"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": false,
+      "successionShortTerm": {
+        "successor": "None (function one-deep)",
+        "readiness": "gap"
+      },
+      "successionLongTerm": {
+        "successor": "None (function one-deep)",
+        "readiness": "gap"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.4
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 3.4
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 3.5
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 3.5
+        }
+      ],
+      "successionReadiness": {
+        "level": "low",
+        "ryg": "red"
+      },
+      "tenureMonths": 14,
+      "directCost": 300000,
+      "estimatedEVImpact": 6000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "on-track",
+        "ryg": "green"
+      },
+      "trending": "neutral",
+      "signal": {
+        "strength": "low",
+        "confidence": 0.58
+      },
+      "nineBox": {
+        "performance": "medium",
+        "potential": "medium",
+        "cell": "2B"
+      },
+      "keyRisks": [
+        "Limited assessment evidence (low signal)",
+        "Migration execution risk",
+        "Single-threaded function"
+      ],
+      "additionalComments": "Runs the NOC/SOC and the offshore-pod migration. Newer hire (~14 months) with limited assessment signal — the lowest-confidence read on the team; high-potential call deferred until Q3-26.",
+      "actionability": {
+        "recommendation": "Gather signal next cycle; confirm the migration go-live date; defer the hi-po call until Q3-26",
+        "level": "low"
+      },
+      "evidence": [
+        {
+          "field": "signal",
+          "finding": "COO concedes this was a fast, lightly-evidenced hire and that the read will sharpen after two quarters — the basis for the low signal.",
+          "quote": "I moved fast on this hire and I'll know a lot more after two quarters.",
+          "document": "data/portcos/PC1/inbox/markdown/interview-notes-exec-panel.md",
+          "documentTitle": "Interview Notes — Exec Panel",
+          "location": "§VP Delivery panel",
+          "speaker": "D. Walsh",
+          "speakerRole": "COO",
+          "type": "caveat"
+        },
+        {
+          "field": "trackingOnVCP",
+          "finding": "Board deck confirms the offshore pod is mid-migration with go-live targeted for Q3 — execution still ahead.",
+          "quote": "Offshore pod is mid-migration; go-live targeted for Q3.",
+          "document": "data/portcos/PC1/inbox/markdown/q2-2026-board-deck.md",
+          "documentTitle": "Q2 2026 Board Deck",
+          "location": "p.8, §Delivery",
+          "speaker": "",
+          "speakerRole": "Board deck",
+          "type": "supporting"
+        }
+      ],
+      "flags": [
+        "low-signal"
+      ],
+      "derisicingQuestions": [
+        "What is the realistic offshore-pod go-live date?",
+        "Is the function dangerously one-deep if he leaves?"
+      ],
+      "suggestedActions": [
+        "Schedule a deep-dive on the delivery roadmap next quarter",
+        "Confirm the Q3-26 migration go-live date"
+      ],
+      "deviations": [],
+      "riskMitigations": [],
+      "insights": [
+        {
+          "id": "pc1_vpdelivery_i1",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "flag",
+          "severity": "info",
+          "title": "Low signal",
+          "code": "low-signal",
+          "detail": "",
+          "relevantFields": [
+            "signal"
+          ]
+        },
+        {
+          "id": "pc1_vpdelivery_i2",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Limited assessment evidence (low signal)",
+          "relevantFields": [
+            "signal"
+          ]
+        },
+        {
+          "id": "pc1_vpdelivery_i3",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Migration execution risk",
+          "relevantFields": [
+            "trackingOnVCP",
+            "indicatorsOfSuccess3to6mo",
+            "estimatedEVImpact"
+          ]
+        },
+        {
+          "id": "pc1_vpdelivery_i4",
+          "evidenceRefs": [],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Confirm the Q3-26 migration go-live date",
+          "relevantFields": [
+            "trackingOnVCP",
+            "indicatorsOfSuccess3to6mo",
+            "estimatedEVImpact"
+          ]
+        },
+        {
+          "id": "pc1_vpdelivery_i5",
+          "evidenceRefs": [],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "What is the realistic offshore-pod go-live date?",
+          "relevantFields": [
+            "trackingOnVCP",
+            "indicatorsOfSuccess3to6mo",
+            "estimatedEVImpact"
+          ]
+        },
+        {
+          "id": "pc1_vpdelivery_i6",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Gather signal next cycle; confirm the migration go-live date; defer the hi-po call until Q3-26",
+          "level": "low",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc1_vppeople",
+      "name": "Renee Castellano",
+      "role": "VP People",
+      "interviewPerformance": {
+        "score": 3.9,
+        "ryg": "green",
+        "basis": "scorecard-at-hire"
+      },
+      "currentStatePerformance": {
+        "score": 4,
+        "ryg": "green"
+      },
+      "futureStatePerformance": {
+        "score": 3.8,
+        "ryg": "green"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Cut overall attrition below 15%",
+        "Reach delivery/engineering with the manager program"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": true,
+      "successionShortTerm": {
+        "successor": "HR director",
+        "readiness": "developing"
+      },
+      "successionLongTerm": {
+        "successor": "HR director",
+        "readiness": "developing"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.7
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 3.8
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 3.9
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 4
+        }
+      ],
+      "successionReadiness": {
+        "level": "medium",
+        "ryg": "yellow"
+      },
+      "tenureMonths": 25,
+      "directCost": 280000,
+      "estimatedEVImpact": 7000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "on-track",
+        "ryg": "green"
+      },
+      "trending": "up",
+      "signal": {
+        "strength": "medium",
+        "confidence": 0.77
+      },
+      "nineBox": {
+        "performance": "high",
+        "potential": "medium",
+        "cell": "2A"
+      },
+      "keyRisks": [
+        "Delivery/engineering attrition remains the one pocket she hasn't cracked - and it's the margin-critical one given the CTO flight risk"
+      ],
+      "additionalComments": "Quietly effective; drove voluntary attrition down ~5 points org-wide and launched the manager-capability program. High-potential within the people function.",
+      "actionability": {
+        "recommendation": "Fund the manager program fully; prioritize delivery/eng retention given the CTO flight risk",
+        "level": "medium"
+      },
+      "evidence": [
+        {
+          "field": "currentStatePerformance",
+          "finding": "Assessor confirms Renee cut voluntary attrition five points everywhere except delivery — strong, with one stubborn gap.",
+          "quote": "Renee took voluntary attrition down five points everywhere except delivery.",
+          "document": "data/portcos/PC1/inbox/markdown/leadership-assessment-2026.md",
+          "documentTitle": "Leadership Assessment 2026",
+          "location": "§People",
+          "speaker": "Talent DD",
+          "speakerRole": "Assessor",
+          "type": "supporting"
+        },
+        {
+          "field": "futureStatePerformance",
+          "finding": "A peer credits Renee with making the manager program real rather than a slide — evidence of execution depth.",
+          "quote": "Made the manager program real, not a slide.",
+          "document": "data/portcos/PC1/inbox/markdown/360-feedback-2026.md",
+          "documentTitle": "360 Feedback 2026",
+          "location": "§VP People",
+          "speaker": "",
+          "speakerRole": "Peer",
+          "type": "supporting"
+        }
+      ],
+      "flags": [
+        "hi-po"
+      ],
+      "derisicingQuestions": [
+        "Can the manager program reach delivery/engineering in time given the CTO flight risk?"
+      ],
+      "suggestedActions": [
+        "Prioritize delivery/engineering in the manager-program rollout"
+      ],
+      "deviations": [],
+      "riskMitigations": [],
+      "insights": [
+        {
+          "id": "pc1_vppeople_i1",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "flag",
+          "severity": "positive",
+          "title": "High potential",
+          "code": "hi-po",
+          "detail": "",
+          "relevantFields": [
+            "highPotential",
+            "nineBox",
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo"
+          ]
+        },
+        {
+          "id": "pc1_vppeople_i2",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Delivery/engineering attrition remains the one pocket she hasn't cracked - and it's the margin-critical one given the CTO flight risk",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo",
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc1_vppeople_i3",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Prioritize delivery/engineering in the manager-program rollout",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo",
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc1_vppeople_i4",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Can the manager program reach delivery/engineering in time given the CTO flight risk?",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo",
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc1_vppeople_i5",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Fund the manager program fully; prioritize delivery/eng retention given the CTO flight risk",
+          "level": "medium",
+          "relevantFields": []
+        }
+      ]
+    }
+  ],
+  "auditLog": [
+    {
+      "ts": "2026-06-12T14:28:00Z",
+      "action": "ingested",
+      "detail": "Read Q2-2026 board deck (13 pp)"
+    },
+    {
+      "ts": "2026-06-12T14:28:45Z",
+      "action": "ingested",
+      "detail": "Read 2026 leadership assessment"
+    },
+    {
+      "ts": "2026-06-12T14:29:35Z",
+      "action": "changed",
+      "field": "pc1_cfo.successionReadiness",
+      "from": "yellow",
+      "to": "red",
+      "reason": "Assessment confirms no finance bench exists ('no number two in finance today')"
+    },
+    {
+      "ts": "2026-06-12T14:29:50Z",
+      "action": "changed",
+      "field": "pc1_cro.trending",
+      "from": "neutral",
+      "to": "down",
+      "reason": "Recurring conversion slipped further behind plan (~$3.2M ARR short); the one red workstream"
+    },
+    {
+      "ts": "2026-06-12T14:30:00Z",
+      "action": "flag",
+      "field": "pc1_cfo",
+      "detail": "Raised key-person-risk flag on lender + integration-accounting relationships"
+    },
+    {
+      "ts": "2026-06-13T12:55:00Z",
+      "action": "ingested",
+      "detail": "Read 2026 360-feedback and target scorecards"
+    },
+    {
+      "ts": "2026-06-13T12:57:00Z",
+      "action": "changed",
+      "field": "pc1_cto.riskOfLoss",
+      "from": "medium",
+      "to": "high",
+      "reason": "CTO fielded an external approach this quarter on a below-market package; ~$26M of single-threaded EV exposure"
+    },
+    {
+      "ts": "2026-06-13T12:58:00Z",
+      "action": "flag",
+      "field": "pc1_cto",
+      "detail": "Raised flight-risk flag on the highest single people-linked EV exposure (~$26M)"
+    },
+    {
+      "ts": "2026-06-13T13:00:00Z",
+      "action": "reindexed",
+      "detail": "Restructured flags/actions/risks into the unified field-tagged insight model; added evidence findings and speaker roles."
+    }
+  ]
+}

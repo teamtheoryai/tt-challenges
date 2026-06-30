@@ -1,0 +1,13 @@
+# Zero-dependency static server for the shared dataset.
+# `docker compose up` serves ./data at http://localhost:8080
+# This exists so the data is reachable over HTTP without picking a stack for you.
+# Build your app however you like alongside it.
+services:
+  data:
+    image: python:3.12-slim
+    working_dir: /srv/data
+    volumes:
+      - ./data:/srv/data:ro
+    command: python -m http.server 8080
+    ports:
+      - "8080:8080"

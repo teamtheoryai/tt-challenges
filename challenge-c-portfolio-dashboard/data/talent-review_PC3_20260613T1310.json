@@ -1,0 +1,1550 @@
+{
+  "schemaVersion": "1.1",
+  "fund": "DAW CAPITAL",
+  "portco": "PC3",
+  "portcoName": "Ridgeline Freight & Logistics",
+  "generatedAt": "2026-06-13T13:10:00Z",
+  "runId": "run_20260613T1310",
+  "sourceDocuments": [
+    {
+      "path": "data/portcos/PC3/inbox/markdown/org-due-diligence-2024.md",
+      "ingestedAt": "2026-06-13T13:06:00Z"
+    },
+    {
+      "path": "data/portcos/PC3/inbox/markdown/leadership-assessment-2026.md",
+      "ingestedAt": "2026-06-13T13:06:40Z"
+    },
+    {
+      "path": "data/portcos/PC3/inbox/markdown/q2-2026-board-deck.md",
+      "ingestedAt": "2026-06-13T13:07:10Z"
+    },
+    {
+      "path": "data/portcos/PC3/inbox/markdown/value-creation-plan-v2.md",
+      "ingestedAt": "2026-06-13T13:07:40Z"
+    },
+    {
+      "path": "data/portcos/PC3/inbox/markdown/360-feedback-2026.md",
+      "ingestedAt": "2026-06-13T13:08:10Z"
+    },
+    {
+      "path": "data/portcos/PC3/inbox/markdown/interview-notes-exec-panel.md",
+      "ingestedAt": "2026-06-13T13:08:40Z"
+    },
+    {
+      "path": "data/portcos/PC3/inbox/markdown/target-scorecards.md",
+      "ingestedAt": "2026-06-13T13:09:10Z"
+    }
+  ],
+  "portcoSummary": {
+    "talentRiskRYG": "green",
+    "evAtRisk": 47000000,
+    "trackingOnVCP": "green",
+    "trending": "up",
+    "highPotentialCount": 1,
+    "atRiskCount": 0,
+    "keyRisks": [
+      "Orderly founder-CEO succession (Dreyer to Whitman) is the defining talent task — retirement in ~18 months",
+      "COO's own VP Operations backfill is thin and must be developed before he vacates the seat",
+      "Driver turnover ~58% under VP People — improving but the perennial operating risk; no bench in the people function",
+      "Aging-fleet capex and fuel-price exposure under VP Fleet"
+    ],
+    "headline": "Strong, stable, experienced team delivering the thesis on plan — no exec below a min bar. The single defining task is the orderly succession of founder-CEO Hank Dreyer to ready-now COO Tom Whitman."
+  },
+  "executives": [
+    {
+      "id": "pc3_ceo",
+      "name": "Hank Dreyer",
+      "role": "CEO (founder)",
+      "interviewPerformance": {
+        "score": 4.3,
+        "ryg": "green",
+        "basis": "org-DD-at-close"
+      },
+      "currentStatePerformance": {
+        "score": 4.2,
+        "ryg": "green"
+      },
+      "futureStatePerformance": {
+        "score": 3.6,
+        "ryg": "yellow"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Dated succession plan and COO equity locked",
+        "Top-20 accounts begin transitioning to Whitman",
+        "COO's own VP Ops successor in development"
+      ],
+      "riskOfLoss": {
+        "level": "planned",
+        "ryg": "yellow"
+      },
+      "highPotential": false,
+      "successionShortTerm": {
+        "successor": "COO (T. Whitman)",
+        "readiness": "ready-now"
+      },
+      "successionLongTerm": {
+        "successor": "COO (T. Whitman)",
+        "readiness": "ready-now"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 4.3
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 4.3
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 4.2
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 4.2
+        }
+      ],
+      "successionReadiness": {
+        "level": "high",
+        "ryg": "green"
+      },
+      "tenureMonths": 372,
+      "directCost": 880000,
+      "estimatedEVImpact": 60000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "on-track",
+        "ryg": "green"
+      },
+      "trending": "neutral",
+      "signal": {
+        "strength": "high",
+        "confidence": 0.9
+      },
+      "nineBox": {
+        "performance": "high",
+        "potential": "medium",
+        "cell": "1B"
+      },
+      "keyRisks": [
+        "Customer relationships concentrated in him — the handoff of those relationships is the real work of the transition",
+        "Planned retirement in ~18 months"
+      ],
+      "additionalComments": "31-year founder-CEO with the best customer and community relationships in the region. The orderly handoff to the ready-now COO is the company's defining talent task.",
+      "actionability": {
+        "recommendation": "Execute a dated 18-month succession plan; begin transitioning key accounts to Whitman now",
+        "level": "medium"
+      },
+      "evidence": [
+        {
+          "field": "futureStatePerformance",
+          "finding": "Founder-CEO intends to retire in ~18 months; the customer-relationship handoff is the whole game and the future-state CEO is the COO.",
+          "quote": "Hank is Ridgeline to a lot of shippers; the whole game is handing that off well.",
+          "document": "data/portcos/PC3/inbox/markdown/org-due-diligence-2024.md",
+          "documentTitle": "Org Due Diligence 2024",
+          "location": "§4.1",
+          "speaker": "",
+          "speakerRole": "Reference",
+          "type": "supporting"
+        },
+        {
+          "field": "successionReadiness",
+          "finding": "CEO wants a clean, dated handoff to Whitman with no surprises for customers or drivers.",
+          "quote": "I want a clean, dated handoff to Tom — no surprises for customers or drivers.",
+          "document": "data/portcos/PC3/inbox/markdown/q2-2026-board-deck.md",
+          "documentTitle": "Q2 2026 Board Deck",
+          "location": "p.6, §Succession",
+          "speaker": "H. Dreyer",
+          "speakerRole": "CEO",
+          "type": "supporting"
+        }
+      ],
+      "flags": [
+        "planned-transition"
+      ],
+      "derisicingQuestions": [
+        "Is the dated 18-month succession plan documented and the COO equity grant locked?"
+      ],
+      "suggestedActions": [
+        "Lock a dated 18-month CEO-succession plan and COO equity grant",
+        "Begin transitioning the top-20 accounts to Whitman"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "Ready-now COO successor (Whitman) in place; succession planning underway"
+      ],
+      "insights": [
+        {
+          "id": "pc3_ceo_i1",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "flag",
+          "severity": "info",
+          "title": "Planned transition",
+          "code": "planned-transition",
+          "detail": "",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_ceo_i2",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Customer relationships concentrated in him — the handoff of those relationships is the real work of the transition",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_ceo_i3",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Planned retirement in ~18 months",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_ceo_i4",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Lock a dated 18-month CEO-succession plan and COO equity grant",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_ceo_i5",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Begin transitioning the top-20 accounts to Whitman",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_ceo_i6",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Risk mitigation in flight",
+          "detail": "Ready-now COO successor (Whitman) in place; succession planning underway",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_ceo_i7",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Is the dated 18-month succession plan documented and the COO equity grant locked?",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_ceo_i8",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Execute a dated 18-month succession plan; begin transitioning key accounts to Whitman now",
+          "level": "medium",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc3_coo",
+      "name": "Tom Whitman",
+      "role": "COO",
+      "interviewPerformance": {
+        "score": 4.1,
+        "ryg": "green",
+        "basis": "org-DD-at-close"
+      },
+      "currentStatePerformance": {
+        "score": 4.3,
+        "ryg": "green"
+      },
+      "futureStatePerformance": {
+        "score": 4.4,
+        "ryg": "green"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Confirm the dated CEO path and equity",
+        "Accelerate his VP Ops successor",
+        "Begin customer-account handoffs from the CEO"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": true,
+      "successionShortTerm": {
+        "successor": "VP of Operations",
+        "readiness": "developing"
+      },
+      "successionLongTerm": {
+        "successor": "VP of Operations",
+        "readiness": "developing"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 4.1
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 4.2
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 4.2
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 4.3
+        }
+      ],
+      "successionReadiness": {
+        "level": "medium",
+        "ryg": "yellow"
+      },
+      "tenureMonths": 40,
+      "directCost": 560000,
+      "estimatedEVImpact": 35000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "ahead",
+        "ryg": "green"
+      },
+      "trending": "up",
+      "signal": {
+        "strength": "high",
+        "confidence": 0.89
+      },
+      "nineBox": {
+        "performance": "high",
+        "potential": "high",
+        "cell": "1A"
+      },
+      "keyRisks": [
+        "His own backfill is thin — needs to keep building the operations bench before he vacates the COO seat"
+      ],
+      "additionalComments": "The operating engine and ready-now CEO successor. Owns the density/network thesis and is tracking ahead. The succession answer that makes the founder transition low-risk.",
+      "actionability": {
+        "recommendation": "Confirm a dated CEO path and equity; accelerate the VP Ops successor; begin account handoffs",
+        "level": "medium"
+      },
+      "evidence": [
+        {
+          "field": "successionReadiness",
+          "finding": "Board view is that Whitman can run the company today; the only open question is timing — a ready-now CEO successor.",
+          "quote": "Tom can run this company today; the only question is timing.",
+          "document": "data/portcos/PC3/inbox/markdown/org-due-diligence-2024.md",
+          "documentTitle": "Org Due Diligence 2024",
+          "location": "§4.3",
+          "speaker": "",
+          "speakerRole": "Board reference",
+          "type": "supporting"
+        },
+        {
+          "field": "currentStatePerformance",
+          "finding": "Board notes Whitman already runs the day-to-day; the CEO title is a formality waiting to happen.",
+          "quote": "Tom already runs the day-to-day; the title is a formality waiting to happen.",
+          "document": "data/portcos/PC3/inbox/markdown/360-feedback-2026.md",
+          "documentTitle": "360 Feedback 2026",
+          "location": "§Board",
+          "speaker": "",
+          "speakerRole": "Board",
+          "type": "supporting"
+        }
+      ],
+      "flags": [
+        "hi-po",
+        "ceo-successor"
+      ],
+      "derisicingQuestions": [
+        "What is the dated VP Operations backfill plan before he vacates the COO seat?"
+      ],
+      "suggestedActions": [
+        "Confirm the dated CEO path and equity grant",
+        "Accelerate the VP Ops successor and begin account handoffs"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "Density/network thesis tracking ahead; succession path being formalized"
+      ],
+      "insights": [
+        {
+          "id": "pc3_coo_i1",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "flag",
+          "severity": "positive",
+          "title": "High potential",
+          "code": "hi-po",
+          "detail": "",
+          "relevantFields": [
+            "highPotential",
+            "nineBox",
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo"
+          ]
+        },
+        {
+          "id": "pc3_coo_i2",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "flag",
+          "severity": "positive",
+          "title": "CEO successor",
+          "code": "ceo-successor",
+          "detail": "",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness",
+            "highPotential",
+            "nineBox"
+          ]
+        },
+        {
+          "id": "pc3_coo_i3",
+          "evidenceRefs": [],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "His own backfill is thin — needs to keep building the operations bench before he vacates the COO seat",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_coo_i4",
+          "evidenceRefs": [],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Confirm the dated CEO path and equity grant",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_coo_i5",
+          "evidenceRefs": [],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Accelerate the VP Ops successor and begin account handoffs",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_coo_i6",
+          "evidenceRefs": [],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "What is the dated VP Operations backfill plan before he vacates the COO seat?",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_coo_i7",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Confirm a dated CEO path and equity; accelerate the VP Ops successor; begin account handoffs",
+          "level": "medium",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc3_cfo",
+      "name": "Walter Ngiraingas",
+      "role": "CFO",
+      "interviewPerformance": {
+        "score": 3.9,
+        "ryg": "green",
+        "basis": "scorecard-at-hire"
+      },
+      "currentStatePerformance": {
+        "score": 4,
+        "ryg": "green"
+      },
+      "futureStatePerformance": {
+        "score": 4,
+        "ryg": "green"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Tuck-in financing locked",
+        "Clean monthly close maintained",
+        "Capex plan aligned to fleet replacement"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": false,
+      "successionShortTerm": {
+        "successor": "Controller",
+        "readiness": "developing"
+      },
+      "successionLongTerm": {
+        "successor": "Controller",
+        "readiness": "developing"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 4
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 4
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 4
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 4
+        }
+      ],
+      "successionReadiness": {
+        "level": "medium",
+        "ryg": "yellow"
+      },
+      "tenureMonths": 26,
+      "directCost": 520000,
+      "estimatedEVImpact": 14000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "on-track",
+        "ryg": "green"
+      },
+      "trending": "neutral",
+      "signal": {
+        "strength": "high",
+        "confidence": 0.84
+      },
+      "nineBox": {
+        "performance": "high",
+        "potential": "medium",
+        "cell": "2A"
+      },
+      "keyRisks": [
+        "Aging-fleet capex timing — a financial-planning item, well-managed"
+      ],
+      "additionalComments": "Steady, stable finance leader; clean, on-time close and disciplined fleet-capex planning. The stabilizing presence through the CEO transition.",
+      "actionability": {
+        "recommendation": "Maintain; ensure he is a stabilizing presence through the succession",
+        "level": "low"
+      },
+      "evidence": [
+        {
+          "field": "currentStatePerformance",
+          "finding": "Monthly close is clean and on time and the lender has zero concerns — a well-controlled finance function.",
+          "quote": "Walter's close is clean and on time every month; the lender has zero concerns.",
+          "document": "data/portcos/PC3/inbox/markdown/q2-2026-board-deck.md",
+          "documentTitle": "Q2 2026 Board Deck",
+          "location": "p.9, §Finance",
+          "speaker": "",
+          "speakerRole": "Board",
+          "type": "supporting"
+        },
+        {
+          "field": "trackingOnVCP",
+          "finding": "Board feedback describes the finance function as boring in the best way — numbers always right and on time.",
+          "quote": "Boring in the best way — the numbers are always right and on time.",
+          "document": "data/portcos/PC3/inbox/markdown/360-feedback-2026.md",
+          "documentTitle": "360 Feedback 2026",
+          "location": "§Board",
+          "speaker": "",
+          "speakerRole": "Board",
+          "type": "supporting"
+        }
+      ],
+      "flags": [],
+      "derisicingQuestions": [
+        "Is the tuck-in financing structure locked and aligned to the fleet-replacement capex plan?"
+      ],
+      "suggestedActions": [
+        "Lock the tuck-in financing",
+        "Maintain the clean monthly close through the transition"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "Controller being developed underneath; capex discipline in place"
+      ],
+      "insights": [
+        {
+          "id": "pc3_cfo_i1",
+          "evidenceRefs": [],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Aging-fleet capex timing — a financial-planning item, well-managed",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "whatDroveEVErosion",
+            "trackingOnVCP",
+            "directCost"
+          ]
+        },
+        {
+          "id": "pc3_cfo_i2",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Lock the tuck-in financing",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP",
+            "directCost"
+          ]
+        },
+        {
+          "id": "pc3_cfo_i3",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Is the tuck-in financing structure locked and aligned to the fleet-replacement capex plan?",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP",
+            "directCost"
+          ]
+        },
+        {
+          "id": "pc3_cfo_i4",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Maintain; ensure he is a stabilizing presence through the succession",
+          "level": "low",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc3_vpsales",
+      "name": "Lena Osei",
+      "role": "VP Sales (CRO)",
+      "interviewPerformance": {
+        "score": 3.8,
+        "ryg": "green",
+        "basis": "scorecard-at-hire"
+      },
+      "currentStatePerformance": {
+        "score": 3.9,
+        "ryg": "green"
+      },
+      "futureStatePerformance": {
+        "score": 3.9,
+        "ryg": "green"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "3PL mix continues toward target",
+        "Book protected through any freight-cycle softness"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": false,
+      "successionShortTerm": {
+        "successor": "Sales director",
+        "readiness": "developing"
+      },
+      "successionLongTerm": {
+        "successor": "Sales director",
+        "readiness": "developing"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.7
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 3.8
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 3.9
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 3.9
+        }
+      ],
+      "successionReadiness": {
+        "level": "medium",
+        "ryg": "yellow"
+      },
+      "tenureMonths": 24,
+      "directCost": 400000,
+      "estimatedEVImpact": 12000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "on-track",
+        "ryg": "green"
+      },
+      "trending": "up",
+      "signal": {
+        "strength": "medium",
+        "confidence": 0.78
+      },
+      "nineBox": {
+        "performance": "high",
+        "potential": "medium",
+        "cell": "2A"
+      },
+      "keyRisks": [
+        "Freight-market softness could pressure the book — a market risk, not a leadership one"
+      ],
+      "additionalComments": "Steady commercial leader delivering the 3PL/brokerage growth lever she was hired for — now ~18% of the book.",
+      "actionability": {
+        "recommendation": "Maintain; protect the 3PL growth investment through any freight-cycle softness",
+        "level": "low"
+      },
+      "evidence": [
+        {
+          "field": "currentStatePerformance",
+          "finding": "3PL/brokerage revenue is up and now ~18% of the book under Osei — the growth lever is landing.",
+          "quote": "3PL/brokerage revenue is up and now ~18% of the book under Lena.",
+          "document": "data/portcos/PC3/inbox/markdown/q2-2026-board-deck.md",
+          "documentTitle": "Q2 2026 Board Deck",
+          "location": "p.8, §Commercial",
+          "speaker": "",
+          "speakerRole": "Board",
+          "type": "supporting"
+        },
+        {
+          "field": "trackingOnVCP",
+          "finding": "Peer credits Osei with building a brokerage business the company did not previously have.",
+          "quote": "Lena brought us a brokerage business we didn't have.",
+          "document": "data/portcos/PC3/inbox/markdown/360-feedback-2026.md",
+          "documentTitle": "360 Feedback 2026",
+          "location": "§Peer",
+          "speaker": "",
+          "speakerRole": "Peer",
+          "type": "supporting"
+        }
+      ],
+      "flags": [],
+      "derisicingQuestions": [
+        "Is the book hedged against a freight-cycle downturn?"
+      ],
+      "suggestedActions": [
+        "Protect the 3PL growth investment through freight-cycle softness",
+        "Continue developing the sales-director successor"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "3PL mix diversifying the book; sales director in development"
+      ],
+      "insights": [
+        {
+          "id": "pc3_vpsales_i1",
+          "evidenceRefs": [],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Freight-market softness could pressure the book — a market risk, not a leadership one",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP",
+            "currentStatePerformance"
+          ]
+        },
+        {
+          "id": "pc3_vpsales_i2",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Protect the 3PL growth investment through freight-cycle softness",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc3_vpsales_i3",
+          "evidenceRefs": [],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Is the book hedged against a freight-cycle downturn?",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc3_vpsales_i4",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Maintain; protect the 3PL growth investment through any freight-cycle softness",
+          "level": "low",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc3_vpfleet",
+      "name": "Sanjay Mehta",
+      "role": "VP Fleet & Maintenance",
+      "interviewPerformance": {
+        "score": 3.7,
+        "ryg": "green",
+        "basis": "org-DD-at-close"
+      },
+      "currentStatePerformance": {
+        "score": 3.8,
+        "ryg": "green"
+      },
+      "futureStatePerformance": {
+        "score": 3.7,
+        "ryg": "green"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Telematics live on >= 90% of fleet",
+        "Idle-time down a further 10%",
+        "Aging-fleet replacement plan aligned to capex"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": false,
+      "successionShortTerm": {
+        "successor": "Maintenance director",
+        "readiness": "developing"
+      },
+      "successionLongTerm": {
+        "successor": "Maintenance director",
+        "readiness": "developing"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.8
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 3.8
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 3.8
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 3.8
+        }
+      ],
+      "successionReadiness": {
+        "level": "medium",
+        "ryg": "yellow"
+      },
+      "tenureMonths": 28,
+      "directCost": 340000,
+      "estimatedEVImpact": 20000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "on-track",
+        "ryg": "green"
+      },
+      "trending": "neutral",
+      "signal": {
+        "strength": "medium",
+        "confidence": 0.76
+      },
+      "nineBox": {
+        "performance": "medium",
+        "potential": "medium",
+        "cell": "2B"
+      },
+      "keyRisks": [
+        "Aging-fleet capex timing",
+        "Driver adoption of telematics",
+        "Fuel-price exposure"
+      ],
+      "additionalComments": "Owns the asset base, the TMS/telematics rollout, and cost-per-mile. Doing the unglamorous work well; watch the aging-fleet capex curve.",
+      "actionability": {
+        "recommendation": "Maintain; align the fleet-replacement plan with the capex budget; push telematics adoption",
+        "level": "low"
+      },
+      "evidence": [
+        {
+          "field": "trackingOnVCP",
+          "finding": "Telematics is live across ~70% of the fleet and idle-time is down — the cost-per-mile lever is progressing.",
+          "quote": "Telematics is live across ~70% of the fleet and idle-time is down.",
+          "document": "data/portcos/PC3/inbox/markdown/q2-2026-board-deck.md",
+          "documentTitle": "Q2 2026 Board Deck",
+          "location": "p.7, §Operations",
+          "speaker": "",
+          "speakerRole": "Board",
+          "type": "supporting"
+        },
+        {
+          "field": "futureStatePerformance",
+          "finding": "Terminal manager notes telematics delivers once drivers adopt it, but adoption has been a grind — the gating tech-adoption dimension.",
+          "quote": "The telematics is great once drivers actually use it; getting there has been a grind.",
+          "document": "data/portcos/PC3/inbox/markdown/360-feedback-2026.md",
+          "documentTitle": "360 Feedback 2026",
+          "location": "§Terminal manager",
+          "speaker": "",
+          "speakerRole": "Terminal manager",
+          "type": "supporting"
+        }
+      ],
+      "flags": [],
+      "derisicingQuestions": [
+        "Is the aging-fleet replacement plan aligned to the capex budget and the fuel-price outlook?"
+      ],
+      "suggestedActions": [
+        "Push telematics adoption toward >= 90% of fleet",
+        "Align the fleet-replacement plan with the capex budget"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "Telematics ~70% live and reducing idle-time; maintenance director in development"
+      ],
+      "insights": [
+        {
+          "id": "pc3_vpfleet_i1",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Aging-fleet capex timing",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP",
+            "directCost"
+          ]
+        },
+        {
+          "id": "pc3_vpfleet_i2",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Driver adoption of telematics",
+          "relevantFields": [
+            "futureStatePerformance",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc3_vpfleet_i3",
+          "evidenceRefs": [],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Fuel-price exposure",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc3_vpfleet_i4",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Push telematics adoption toward >= 90% of fleet",
+          "relevantFields": [
+            "futureStatePerformance",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc3_vpfleet_i5",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Align the fleet-replacement plan with the capex budget",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP",
+            "directCost"
+          ]
+        },
+        {
+          "id": "pc3_vpfleet_i6",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Is the aging-fleet replacement plan aligned to the capex budget and the fuel-price outlook?",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP",
+            "directCost"
+          ]
+        },
+        {
+          "id": "pc3_vpfleet_i7",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Maintain; align the fleet-replacement plan with the capex budget; push telematics adoption",
+          "level": "low",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc3_vpsafety",
+      "name": "Carla Jennings",
+      "role": "VP Safety & Compliance",
+      "interviewPerformance": {
+        "score": 3.6,
+        "ryg": "green",
+        "basis": "scorecard-at-hire"
+      },
+      "currentStatePerformance": {
+        "score": 3.7,
+        "ryg": "green"
+      },
+      "futureStatePerformance": {
+        "score": 3.7,
+        "ryg": "green"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "CSA scores down across all BASIC categories",
+        "Preventable-accident rate down",
+        "Next renewal modeled below plan"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": false,
+      "successionShortTerm": {
+        "successor": "Compliance manager",
+        "readiness": "developing"
+      },
+      "successionLongTerm": {
+        "successor": "Compliance manager",
+        "readiness": "developing"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.5
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 3.6
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 3.7
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 3.7
+        }
+      ],
+      "successionReadiness": {
+        "level": "medium",
+        "ryg": "yellow"
+      },
+      "tenureMonths": 18,
+      "directCost": 290000,
+      "estimatedEVImpact": 12000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "on-track",
+        "ryg": "green"
+      },
+      "trending": "up",
+      "signal": {
+        "strength": "medium",
+        "confidence": 0.74
+      },
+      "nineBox": {
+        "performance": "medium",
+        "potential": "medium",
+        "cell": "2B"
+      },
+      "keyRisks": [
+        "A serious safety event is always a tail risk in trucking — well-managed but never zero"
+      ],
+      "additionalComments": "Owns DOT/CSA, insurance posture, and driver-safety programs. Quietly turning safety into a cost advantage — CSA scores down, insurance renewal below plan.",
+      "actionability": {
+        "recommendation": "Maintain; she is paying for herself in insurance savings",
+        "level": "low"
+      },
+      "evidence": [
+        {
+          "field": "trackingOnVCP",
+          "finding": "CSA scores are down across all categories and the insurance renewal came in below plan — safety becoming a cost advantage.",
+          "quote": "CSA scores are down across all categories and our insurance renewal came in below plan.",
+          "document": "data/portcos/PC3/inbox/markdown/q2-2026-board-deck.md",
+          "documentTitle": "Q2 2026 Board Deck",
+          "location": "p.10, §Safety",
+          "speaker": "C. Jennings",
+          "speakerRole": "VP Safety",
+          "type": "supporting"
+        },
+        {
+          "field": "currentStatePerformance",
+          "finding": "Peer confirms CSA scores have never looked better under Jennings.",
+          "quote": "Our CSA scores have never looked better.",
+          "document": "data/portcos/PC3/inbox/markdown/360-feedback-2026.md",
+          "documentTitle": "360 Feedback 2026",
+          "location": "§Peer",
+          "speaker": "",
+          "speakerRole": "Peer",
+          "type": "supporting"
+        }
+      ],
+      "flags": [],
+      "derisicingQuestions": [
+        "Is the preventable-accident trend sustaining and modeled into the next insurance renewal?"
+      ],
+      "suggestedActions": [
+        "Sustain the CSA improvement across all BASIC categories",
+        "Develop the compliance-manager successor"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "CSA scores improving and insurance renewal below plan; compliance manager in development"
+      ],
+      "insights": [
+        {
+          "id": "pc3_vpsafety_i1",
+          "evidenceRefs": [],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "A serious safety event is always a tail risk in trucking — well-managed but never zero",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP",
+            "currentStatePerformance"
+          ]
+        },
+        {
+          "id": "pc3_vpsafety_i2",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Sustain the CSA improvement across all BASIC categories",
+          "relevantFields": [
+            "trackingOnVCP",
+            "estimatedEVImpact"
+          ]
+        },
+        {
+          "id": "pc3_vpsafety_i3",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Risk mitigation in flight",
+          "detail": "CSA scores improving and insurance renewal below plan",
+          "relevantFields": [
+            "trackingOnVCP",
+            "estimatedEVImpact"
+          ]
+        },
+        {
+          "id": "pc3_vpsafety_i4",
+          "evidenceRefs": [],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Is the preventable-accident trend sustaining and modeled into the next insurance renewal?",
+          "relevantFields": [
+            "trackingOnVCP",
+            "estimatedEVImpact"
+          ]
+        },
+        {
+          "id": "pc3_vpsafety_i5",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Maintain; she is paying for herself in insurance savings",
+          "level": "low",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc3_vppeople",
+      "name": "Roy Tibbets",
+      "role": "VP People",
+      "interviewPerformance": {
+        "score": 3.5,
+        "ryg": "yellow",
+        "basis": "scorecard-at-hire"
+      },
+      "currentStatePerformance": {
+        "score": 3.6,
+        "ryg": "yellow"
+      },
+      "futureStatePerformance": {
+        "score": 3.6,
+        "ryg": "yellow"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Turnover < 56%",
+        "Driver-pay/quality-of-life program phase 2 live",
+        "Driver NPS up"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": false,
+      "successionShortTerm": {
+        "successor": "None",
+        "readiness": "gap"
+      },
+      "successionLongTerm": {
+        "successor": "None",
+        "readiness": "gap"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.4
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 3.5
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 3.6
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 3.6
+        }
+      ],
+      "successionReadiness": {
+        "level": "low",
+        "ryg": "red"
+      },
+      "tenureMonths": 22,
+      "directCost": 260000,
+      "estimatedEVImpact": 15000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "improving",
+        "ryg": "yellow"
+      },
+      "trending": "up",
+      "signal": {
+        "strength": "medium",
+        "confidence": 0.72
+      },
+      "nineBox": {
+        "performance": "medium",
+        "potential": "medium",
+        "cell": "2B"
+      },
+      "keyRisks": [
+        "Driver turnover still ~58% — improved but the perennial operating risk",
+        "No bench in the people function (the one bench gap on the team)"
+      ],
+      "additionalComments": "Making real headway on the hardest job in the business — driver turnover down from ~70% to ~58%. The one bench gap on the team is his own function.",
+      "actionability": {
+        "recommendation": "Maintain; fund the next phase of driver-retention; build a successor",
+        "level": "low"
+      },
+      "evidence": [
+        {
+          "field": "trackingOnVCP",
+          "finding": "Driver turnover is down twelve points to 58% — worth more than most of the cost program.",
+          "quote": "Driver turnover is down twelve points to 58% — that's worth more than most of the cost program.",
+          "document": "data/portcos/PC3/inbox/markdown/q2-2026-board-deck.md",
+          "documentTitle": "Q2 2026 Board Deck",
+          "location": "p.11, §People",
+          "speaker": "",
+          "speakerRole": "Board",
+          "type": "supporting"
+        },
+        {
+          "field": "currentStatePerformance",
+          "finding": "Terminal manager notes driver turnover is coming down, which nobody thought possible at Ridgeline.",
+          "quote": "Driver turnover is actually coming down, which nobody thought possible here.",
+          "document": "data/portcos/PC3/inbox/markdown/360-feedback-2026.md",
+          "documentTitle": "360 Feedback 2026",
+          "location": "§Terminal manager",
+          "speaker": "",
+          "speakerRole": "Terminal manager",
+          "type": "supporting"
+        }
+      ],
+      "flags": [
+        "succession-gap"
+      ],
+      "derisicingQuestions": [
+        "What is the plan to build a successor in the people function — the one bench gap on the team?"
+      ],
+      "suggestedActions": [
+        "Fund phase 2 of the driver-retention program",
+        "Build a successor in the people function"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "Driver-retention program phase 2 funded; turnover trending down twelve points"
+      ],
+      "insights": [
+        {
+          "id": "pc3_vppeople_i1",
+          "evidenceRefs": [],
+          "type": "flag",
+          "severity": "warning",
+          "title": "Succession gap",
+          "code": "succession-gap",
+          "detail": "",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_vppeople_i2",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Driver turnover still ~58% — improved but the perennial operating risk",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP",
+            "currentStatePerformance"
+          ]
+        },
+        {
+          "id": "pc3_vppeople_i3",
+          "evidenceRefs": [],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "No bench in the people function (the one bench gap on the team)",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_vppeople_i4",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Fund phase 2 of the driver-retention program",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc3_vppeople_i5",
+          "evidenceRefs": [],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Build a successor in the people function",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_vppeople_i6",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Risk mitigation in flight",
+          "detail": "Driver-retention program phase 2 funded; turnover trending down twelve points",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc3_vppeople_i7",
+          "evidenceRefs": [],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "What is the plan to build a successor in the people function — the one bench gap on the team?",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc3_vppeople_i8",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Maintain; fund the next phase of driver-retention; build a successor",
+          "level": "low",
+          "relevantFields": []
+        }
+      ]
+    }
+  ],
+  "auditLog": [
+    {
+      "ts": "2026-06-13T13:06:00Z",
+      "action": "ingested",
+      "detail": "Read org due diligence (2024) and 2026 leadership assessment"
+    },
+    {
+      "ts": "2026-06-13T13:07:00Z",
+      "action": "ingested",
+      "detail": "Read Q2-2026 board deck and value-creation plan v2"
+    },
+    {
+      "ts": "2026-06-13T13:08:00Z",
+      "action": "ingested",
+      "detail": "Read 360-feedback (2026), exec-panel interview notes, and target scorecards"
+    },
+    {
+      "ts": "2026-06-13T13:08:45Z",
+      "action": "changed",
+      "field": "pc3_vppeople.successionReadiness",
+      "from": "medium",
+      "to": "low",
+      "reason": "Confirmed no bench in the people function — the one succession gap on the team"
+    },
+    {
+      "ts": "2026-06-13T13:09:15Z",
+      "action": "flag",
+      "field": "pc3_coo",
+      "detail": "Confirmed ready-now CEO-successor flag (Whitman) — succession path is the defining task"
+    },
+    {
+      "ts": "2026-06-13T13:09:45Z",
+      "action": "reindexed",
+      "detail": "Restructured flags/actions/risks into the unified field-tagged insight model; added evidence findings and speaker roles."
+    },
+    {
+      "ts": "2026-06-13T13:10:00Z",
+      "action": "recomputed",
+      "field": "portcoSummary.evAtRisk",
+      "detail": "Summed people-linked EV at risk: driver turnover (~$15M, VP People) + aging-fleet/fuel (~$20M, VP Fleet) + CSA/insurance (~$12M, VP Safety) = $47M"
+    }
+  ]
+}

@@ -1,0 +1,860 @@
+{
+  "schemaVersion": "1.1",
+  "fund": "DAW CAPITAL",
+  "portco": "PC2",
+  "portcoName": "Cascade Care Group",
+  "generatedAt": "2026-06-13T13:04:26Z",
+  "runId": "run_2026-06-13T1304",
+  "sourceDocuments": [
+    {
+      "path": "data/portcos/PC2/inbox/markdown/leadership-assessment-2026.md",
+      "ingestedAt": "2026-06-13T09:03:00Z"
+    },
+    {
+      "path": "data/portcos/PC2/inbox/markdown/value-creation-plan-v3.md",
+      "ingestedAt": "2026-06-13T09:03:40Z"
+    },
+    {
+      "path": "data/portcos/PC2/inbox/markdown/interview-notes-exec-panel.md",
+      "ingestedAt": "2026-06-13T09:04:10Z"
+    },
+    {
+      "path": "data/portcos/PC2/inbox/q2-2026-board-update.md",
+      "ingestedAt": "2026-06-13T13:04:10Z"
+    }
+  ],
+  "portcoSummary": {
+    "talentRiskRYG": "yellow",
+    "evAtRisk": 12000000,
+    "trackingOnVCP": "yellow",
+    "trending": "up",
+    "highPotentialCount": 1,
+    "atRiskCount": 0,
+    "keyRisks": [
+      "COO Priya Nair is the key retention risk and the internal CEO option",
+      "Commercial recovery under CMO Trevor Hale is only one quarter old — unproven until Q3",
+      "New CFO Naomi Okonkwo has ~1 month tenure with no finance bench behind her"
+    ],
+    "headline": "Biggest overhang removed: CFO seat filled with a step-change hire (Naomi Okonkwo) and the commercial engine recovering under Trevor Hale. Retaining COO Priya Nair is the remaining priority while the CEO question stays open."
+  },
+  "executives": [
+    {
+      "id": "pc2_cfo",
+      "name": "Naomi Okonkwo",
+      "role": "CFO",
+      "interviewPerformance": {
+        "score": 4.2,
+        "ryg": "green",
+        "basis": "scorecard-at-hire"
+      },
+      "currentStatePerformance": {
+        "score": 3.8,
+        "ryg": "green"
+      },
+      "futureStatePerformance": {
+        "score": 4,
+        "ryg": "green"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Sustain the lender-relationship turnaround through the next covenant cycle",
+        "Stand up a reliable monthly close and rolling forecast",
+        "Define a VP Finance backup in H2"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": false,
+      "successionShortTerm": {
+        "successor": "None yet — VP Finance to be defined in H2",
+        "readiness": "gap"
+      },
+      "successionLongTerm": {
+        "successor": "VP Finance (to be hired)",
+        "readiness": "in-progress"
+      },
+      "quarterlyPerformance": [],
+      "successionReadiness": {
+        "level": "low",
+        "ryg": "red"
+      },
+      "tenureMonths": 1,
+      "directCost": 460000,
+      "estimatedEVImpact": 10000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "on-track",
+        "ryg": "green"
+      },
+      "trending": "up",
+      "signal": {
+        "strength": "medium",
+        "confidence": 0.66
+      },
+      "nineBox": {
+        "performance": "medium",
+        "potential": "medium",
+        "cell": "2B"
+      },
+      "keyRisks": [
+        "Assessment rests on ~1 month tenure — durability unproven",
+        "No finance bench yet; VP Finance seat unfilled"
+      ],
+      "additionalComments": "Seat filled 2026-05-19 by Naomi Okonkwo after a ~5-month vacancy. Prior: SVP Finance at a $400M revenue managed-services platform; owned FP&A, treasury, and the senior lender relationship and led two refinancings. Strong early signal — rebuilt the 13-week cash model the prior CFO never delivered and improved the lender's posture. Scores held green-but-conservative given one month of tenure. directCost ($460K) is an estimate pending comp confirmation.",
+      "actionability": {
+        "recommendation": "Support onboarding; convert early momentum into a durable close/forecast cadence and define a VP Finance backup in H2",
+        "level": "medium"
+      },
+      "evidence": [
+        {
+          "field": "currentStatePerformance",
+          "finding": "Operating partner reports a step-change: in three weeks Naomi rebuilt the 13-week cash model the prior CFO never delivered and shifted the lender's posture in the room.",
+          "quote": "In three weeks Naomi rebuilt the 13-week cash model the prior CFO never delivered and walked the lender through it herself. The bank's posture changed in the room. This is a step-change for the finance function.",
+          "document": "data/portcos/PC2/inbox/q2-2026-board-update.md",
+          "documentTitle": "Q2 2026 Board Update",
+          "location": "p.2, §CFO",
+          "speaker": "R. Alvarez",
+          "speakerRole": "Operating Partner",
+          "type": "supporting"
+        },
+        {
+          "field": "interviewPerformance",
+          "finding": "Board chair rates Naomi the strongest finance hire across the portfolio this year, citing FP&A and lender leadership at a $400M platform and two closed refinancings.",
+          "quote": "Naomi is the strongest finance hire we've made across the portfolio this year — she ran FP&A and the lender relationship at a $400M revenue services platform and closed two refinancings. The lender conversations are already in better hands.",
+          "document": "data/portcos/PC2/inbox/q2-2026-board-update.md",
+          "documentTitle": "Q2 2026 Board Update",
+          "location": "p.1, §Executive Summary",
+          "speaker": "M. Daugherty",
+          "speakerRole": "Board Chair",
+          "type": "corroborating"
+        },
+        {
+          "field": "estimatedEVImpact",
+          "finding": "Filling the CFO seat removes the single biggest overhang on the business, per the board chair.",
+          "quote": "Filling the CFO seat removes the single biggest overhang on this business.",
+          "document": "data/portcos/PC2/inbox/q2-2026-board-update.md",
+          "documentTitle": "Q2 2026 Board Update",
+          "location": "p.1, §Executive Summary",
+          "speaker": "M. Daugherty",
+          "speakerRole": "Board Chair",
+          "type": "supporting"
+        }
+      ],
+      "flags": [
+        "key-hire"
+      ],
+      "derisicingQuestions": [
+        "Does the early lender turnaround hold through the next covenant cycle?"
+      ],
+      "suggestedActions": [
+        "Confirm comp and equity package on file",
+        "Scope the VP Finance backup hire for H2"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "Strong equity package in place",
+        "13-week cash model rebuilt and lender relationship stabilized"
+      ],
+      "insights": [
+        {
+          "id": "pc2_cfo_i1",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "flag",
+          "severity": "positive",
+          "title": "Step-change hire",
+          "code": "key-hire",
+          "detail": "Strongest finance hire across the portfolio this year; immediate impact on the cash model and lender relationship.",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance"
+          ]
+        },
+        {
+          "id": "pc2_cfo_i2",
+          "evidenceRefs": [
+            2
+          ],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Risk mitigation in flight",
+          "detail": "Open CFO seat filled — the single biggest overhang on the business removed",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "whatDroveEVErosion",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc2_cfo_i3",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Assessment rests on ~1 month tenure — durability unproven",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "signal"
+          ]
+        },
+        {
+          "id": "pc2_cfo_i4",
+          "evidenceRefs": [],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "No finance bench yet; VP Finance seat unfilled",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc2_cfo_i5",
+          "evidenceRefs": [],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Scope the VP Finance backup hire for H2",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc2_cfo_i6",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Does the early lender turnaround hold through the next covenant cycle?",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc2_cfo_i7",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Support onboarding; convert early momentum into a durable close/forecast cadence and define a VP Finance backup in H2",
+          "level": "medium",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc2_coo",
+      "name": "Priya Nair",
+      "role": "COO",
+      "interviewPerformance": {
+        "score": 3.7,
+        "ryg": "green",
+        "basis": "org-DD-at-close"
+      },
+      "currentStatePerformance": {
+        "score": 3.6,
+        "ryg": "yellow"
+      },
+      "futureStatePerformance": {
+        "score": 3.8,
+        "ryg": "green"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Hold service levels through the leadership turbulence",
+        "Own one stalled VCP workstream"
+      ],
+      "riskOfLoss": {
+        "level": "medium",
+        "ryg": "yellow"
+      },
+      "highPotential": true,
+      "successionShortTerm": {
+        "successor": "None",
+        "readiness": "gap"
+      },
+      "successionLongTerm": {
+        "successor": "None",
+        "readiness": "gap"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.6
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 3.7
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 3.6
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 3.7
+        }
+      ],
+      "successionReadiness": {
+        "level": "low",
+        "ryg": "red"
+      },
+      "tenureMonths": 10,
+      "directCost": 480000,
+      "estimatedEVImpact": 16000000,
+      "whatDroveEVErosion": null,
+      "trackingOnVCP": {
+        "status": "on-track",
+        "ryg": "green"
+      },
+      "trending": "neutral",
+      "signal": {
+        "strength": "medium",
+        "confidence": 0.76
+      },
+      "nineBox": {
+        "performance": "medium",
+        "potential": "high",
+        "cell": "2A"
+      },
+      "keyRisks": [
+        "Flight risk if the CEO situation drags",
+        "Key internal CEO option — retention is critical",
+        "No internal succession behind her — structural risk if she leaves"
+      ],
+      "additionalComments": "The steady hand and the most credible internal CEO candidate — the only one operating at the level the thesis needs. Retain at all costs. Senior team steadier this quarter (CFO hired, CEO stabilized the team), which eases near-term flight risk, but retention stays the priority while the CEO question is open.",
+      "actionability": {
+        "recommendation": "Retention package now; position as internal CEO option",
+        "level": "high"
+      },
+      "evidence": [
+        {
+          "field": "riskOfLoss",
+          "finding": "Senior team steadied this quarter, easing the near-term flight risk that was tied to instability at the top.",
+          "quote": "he executed the CFO search well and has stabilized the senior team.",
+          "document": "data/portcos/PC2/inbox/q2-2026-board-update.md",
+          "documentTitle": "Q2 2026 Board Update",
+          "location": "p.1, §Executive Summary",
+          "speaker": "M. Daugherty",
+          "speakerRole": "Board Chair",
+          "type": "caveat"
+        },
+        {
+          "field": "currentStatePerformance",
+          "finding": "Priya reported the commercial recovery to the board, signaling she is operating across the leadership gaps at the top.",
+          "quote": "Net-new pipeline is up 38% quarter over quarter and we closed two of the three target logos. After two flat quarters this is the first quarter Trevor has delivered against the commercial plan.",
+          "document": "data/portcos/PC2/inbox/q2-2026-board-update.md",
+          "documentTitle": "Q2 2026 Board Update",
+          "location": "p.4, §Commercial",
+          "speaker": "Priya Nair",
+          "speakerRole": "COO",
+          "type": "supporting"
+        }
+      ],
+      "flags": [
+        "hi-po",
+        "flight-risk"
+      ],
+      "derisicingQuestions": [
+        "Would she take the CEO seat if offered?"
+      ],
+      "suggestedActions": [
+        "Put a retention grant in place this month",
+        "Quiet conversation re: CEO interest"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "Retention grant + clear path",
+        "Senior team steadied this quarter — near-term flight risk eased"
+      ],
+      "insights": [
+        {
+          "id": "pc2_coo_i1",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "flag",
+          "severity": "positive",
+          "title": "High potential",
+          "code": "hi-po",
+          "detail": "The most credible internal CEO candidate — the only executive operating at the level the thesis needs.",
+          "relevantFields": [
+            "highPotential",
+            "nineBox",
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "interviewPerformance",
+            "quarterlyPerformance",
+            "indicatorsOfSuccess3to6mo"
+          ]
+        },
+        {
+          "id": "pc2_coo_i2",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "flag",
+          "severity": "warning",
+          "title": "Flight risk",
+          "code": "flight-risk",
+          "detail": "Eased somewhat as the senior team steadied this quarter, but unresolved while the CEO question is open.",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc2_coo_i3",
+          "evidenceRefs": [],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Flight risk if the CEO situation drags",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc2_coo_i4",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Key internal CEO option — retention is critical",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks",
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc2_coo_i5",
+          "evidenceRefs": [],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Put a retention grant in place this month",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc2_coo_i6",
+          "evidenceRefs": [],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Quiet conversation re: CEO interest",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc2_coo_i7",
+          "evidenceRefs": [],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Risk mitigation in flight",
+          "detail": "Retention grant + clear path",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc2_coo_i8",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Risk mitigation in flight",
+          "detail": "Senior team steadied this quarter — near-term flight risk eased",
+          "relevantFields": [
+            "riskOfLoss",
+            "keyRisks"
+          ]
+        },
+        {
+          "id": "pc2_coo_i9",
+          "evidenceRefs": [],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Would she take the CEO seat if offered?",
+          "relevantFields": [
+            "successionShortTerm",
+            "successionLongTerm",
+            "successionReadiness"
+          ]
+        },
+        {
+          "id": "pc2_coo_i10",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Retention package now; position as internal CEO option",
+          "level": "high",
+          "relevantFields": []
+        }
+      ]
+    },
+    {
+      "id": "pc2_cmo",
+      "name": "Trevor Hale",
+      "role": "CMO",
+      "interviewPerformance": {
+        "score": 3.3,
+        "ryg": "yellow",
+        "basis": "scorecard-at-hire"
+      },
+      "currentStatePerformance": {
+        "score": 3.1,
+        "ryg": "yellow"
+      },
+      "futureStatePerformance": {
+        "score": 3,
+        "ryg": "yellow"
+      },
+      "indicatorsOfSuccess3to6mo": [
+        "Sustain net-new pipeline growth into Q3",
+        "Convert the recovered pipeline into closed revenue"
+      ],
+      "riskOfLoss": {
+        "level": "low",
+        "ryg": "green"
+      },
+      "highPotential": false,
+      "successionShortTerm": {
+        "successor": "None",
+        "readiness": "gap"
+      },
+      "successionLongTerm": {
+        "successor": "External",
+        "readiness": "gap"
+      },
+      "quarterlyPerformance": [
+        {
+          "quarter": "Q3-25",
+          "score": 3.1
+        },
+        {
+          "quarter": "Q4-25",
+          "score": 2.9
+        },
+        {
+          "quarter": "Q1-26",
+          "score": 2.7
+        },
+        {
+          "quarter": "Q2-26",
+          "score": 3.1
+        }
+      ],
+      "successionReadiness": {
+        "level": "low",
+        "ryg": "red"
+      },
+      "tenureMonths": 11,
+      "directCost": 340000,
+      "estimatedEVImpact": -1000000,
+      "whatDroveEVErosion": "Commercial engine recovering: net-new pipeline +38% QoQ and two of three target logos closed — the first quarter delivering against plan after two flat quarters (Q1 pipeline coverage 1.4x vs a 3x target). Durability unproven over a single quarter.",
+      "trackingOnVCP": {
+        "status": "behind",
+        "ryg": "yellow"
+      },
+      "trending": "up",
+      "signal": {
+        "strength": "medium",
+        "confidence": 0.72
+      },
+      "nineBox": {
+        "performance": "medium",
+        "potential": "low",
+        "cell": "2C"
+      },
+      "keyRisks": [
+        "Recovery is one quarter old — durability unproven until Q3",
+        "Must sustain net-new growth to validate the underwritten growth thesis"
+      ],
+      "additionalComments": "Owns the commercial engine central to the growth thesis. First quarter of commercial delivery after two flat quarters (net-new pipeline +38% QoQ, 2 of 3 target logos closed, reported by COO Priya Nair). Upgrade from 'stalled' to 'recovering'. One quarter does not make a trend — watch Q3 for durability before concluding a turnaround.",
+      "actionability": {
+        "recommendation": "Hold; validate the recovery over Q3 before any leadership change",
+        "level": "medium"
+      },
+      "evidence": [
+        {
+          "field": "currentStatePerformance",
+          "finding": "COO reports the first quarter of commercial delivery: net-new pipeline +38% QoQ and two of three target logos closed after two flat quarters.",
+          "quote": "Net-new pipeline is up 38% quarter over quarter and we closed two of the three target logos. After two flat quarters this is the first quarter Trevor has delivered against the commercial plan.",
+          "document": "data/portcos/PC2/inbox/q2-2026-board-update.md",
+          "documentTitle": "Q2 2026 Board Update",
+          "location": "p.4, §Commercial",
+          "speaker": "Priya Nair",
+          "speakerRole": "COO",
+          "type": "supporting"
+        },
+        {
+          "field": "whatDroveEVErosion",
+          "finding": "The commercial engine is no longer stalled, though one quarter does not make a trend — the board flags Q3 as the durability test.",
+          "quote": "The commercial engine is no longer stalled, though one quarter does not yet make a trend — watch Q3 for durability.",
+          "document": "data/portcos/PC2/inbox/q2-2026-board-update.md",
+          "documentTitle": "Q2 2026 Board Update",
+          "location": "p.4, §Commercial",
+          "speaker": "",
+          "speakerRole": "Board Update",
+          "type": "caveat"
+        }
+      ],
+      "flags": [
+        "recovering"
+      ],
+      "derisicingQuestions": [
+        "Does net-new growth sustain into Q3, or was this a one-quarter pull-forward?"
+      ],
+      "suggestedActions": [
+        "Instrument leading indicators of pipeline durability",
+        "Reassess at the Q3 board meeting"
+      ],
+      "deviations": [],
+      "riskMitigations": [
+        "Pipeline rebuild showing first results"
+      ],
+      "insights": [
+        {
+          "id": "pc2_cmo_i1",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "risk-mitigation",
+          "severity": "positive",
+          "title": "Commercial engine recovering",
+          "code": "recovering",
+          "detail": "Net-new pipeline +38% QoQ and two of three target logos closed — first quarter delivering against plan.",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "estimatedEVImpact",
+            "whatDroveEVErosion",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc2_cmo_i2",
+          "evidenceRefs": [
+            1
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Recovery is one quarter old — durability unproven until Q3",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "quarterlyPerformance",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc2_cmo_i3",
+          "evidenceRefs": [
+            0,
+            1
+          ],
+          "type": "key-risk",
+          "severity": "warning",
+          "title": "Key risk",
+          "detail": "Must sustain net-new growth to validate the underwritten growth thesis",
+          "relevantFields": [
+            "estimatedEVImpact",
+            "whatDroveEVErosion",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc2_cmo_i4",
+          "evidenceRefs": [],
+          "type": "suggested-action",
+          "severity": "info",
+          "title": "Suggested action",
+          "detail": "Reassess at the Q3 board meeting",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "actionability"
+          ]
+        },
+        {
+          "id": "pc2_cmo_i5",
+          "evidenceRefs": [
+            0
+          ],
+          "type": "derisking-question",
+          "severity": "info",
+          "title": "De-risking question",
+          "detail": "Does net-new growth sustain into Q3, or was this a one-quarter pull-forward?",
+          "relevantFields": [
+            "currentStatePerformance",
+            "futureStatePerformance",
+            "trackingOnVCP"
+          ]
+        },
+        {
+          "id": "pc2_cmo_i6",
+          "evidenceRefs": [],
+          "type": "recommendation",
+          "severity": "info",
+          "title": "Recommendation",
+          "detail": "Hold; validate the recovery over Q3 before any leadership change",
+          "level": "medium",
+          "relevantFields": []
+        }
+      ]
+    }
+  ],
+  "auditLog": [
+    {
+      "ts": "2026-06-13T13:04:10Z",
+      "action": "ingested",
+      "detail": "Read Q2 2026 Board Update (data/portcos/PC2/inbox/q2-2026-board-update.md)"
+    },
+    {
+      "ts": "2026-06-13T13:04:12Z",
+      "action": "changed",
+      "field": "pc2_cfo.name",
+      "from": "(Vacant)",
+      "to": "Naomi Okonkwo",
+      "reason": "CFO seat filled 2026-05-19; ~5-month vacancy ended"
+    },
+    {
+      "ts": "2026-06-13T13:04:13Z",
+      "action": "changed",
+      "field": "pc2_cfo.currentStatePerformance",
+      "from": "gray (0)",
+      "to": "green (3.8)",
+      "reason": "Operating partner reports a step-change first month; scored green-but-conservative for ~1 month tenure"
+    },
+    {
+      "ts": "2026-06-13T13:04:14Z",
+      "action": "changed",
+      "field": "pc2_cfo.estimatedEVImpact",
+      "from": 0,
+      "to": 10000000,
+      "reason": "Board chair: filling the seat removes the single biggest overhang on the business"
+    },
+    {
+      "ts": "2026-06-13T13:04:15Z",
+      "action": "changed",
+      "field": "pc2_cfo.trackingOnVCP",
+      "from": "gray (n/a)",
+      "to": "green (on-track)",
+      "reason": "Finance function step-change; 13-week cash model rebuilt and lender relationship stabilized"
+    },
+    {
+      "ts": "2026-06-13T13:04:16Z",
+      "action": "flag",
+      "field": "pc2_cfo",
+      "detail": "Resolved 'open-seat' flag; added positive 'key-hire' flag"
+    },
+    {
+      "ts": "2026-06-13T13:04:18Z",
+      "action": "changed",
+      "field": "pc2_cmo.currentStatePerformance",
+      "from": "red (2.7)",
+      "to": "yellow (3.1)",
+      "reason": "First quarter delivering against the commercial plan: pipeline +38% QoQ, 2 of 3 target logos closed"
+    },
+    {
+      "ts": "2026-06-13T13:04:19Z",
+      "action": "changed",
+      "field": "pc2_cmo.trending",
+      "from": "down",
+      "to": "up",
+      "reason": "Commercial engine recovering after two flat quarters"
+    },
+    {
+      "ts": "2026-06-13T13:04:20Z",
+      "action": "changed",
+      "field": "pc2_cmo.estimatedEVImpact",
+      "from": -3000000,
+      "to": -1000000,
+      "reason": "Erosion easing as the commercial recovery takes hold; held negative pending Q3 durability"
+    },
+    {
+      "ts": "2026-06-13T13:04:21Z",
+      "action": "flag",
+      "field": "pc2_cmo",
+      "detail": "Replaced 'below-plan' flag with 'recovering'; recovery unproven over a single quarter"
+    },
+    {
+      "ts": "2026-06-13T13:04:27Z",
+      "action": "changed",
+      "field": "pc2_coo.riskOfLoss",
+      "from": "medium/yellow",
+      "to": "medium/yellow",
+      "reason": "Near-term flight risk eased as the senior team steadied, but retention stays the priority while the CEO question is open"
+    },
+    {
+      "ts": "2026-06-13T13:04:28Z",
+      "action": "changed",
+      "field": "portcoSummary.talentRiskRYG",
+      "from": "red",
+      "to": "yellow",
+      "reason": "Two of three prior key risks resolved/improving (CFO filled, commercial recovering); risk now concentrated in COO retention"
+    },
+    {
+      "ts": "2026-06-13T13:04:29Z",
+      "action": "changed",
+      "field": "portcoSummary.evAtRisk",
+      "from": 24000000,
+      "to": 12000000,
+      "reason": "CFO overhang removed and commercial recovering; remaining exposure is COO retention"
+    },
+    {
+      "ts": "2026-06-13T13:04:30Z",
+      "action": "changed",
+      "field": "portcoSummary.atRiskCount",
+      "from": 1,
+      "to": 0,
+      "reason": "CFO seat filled and CMO moved from at-risk to recovering/watch"
+    },
+    {
+      "ts": "2026-06-13T13:04:32Z",
+      "action": "changed",
+      "field": "portcoSummary.trackingOnVCP",
+      "from": "red",
+      "to": "yellow",
+      "reason": "Mixed VCP: finance fixed, commercial recovering, but durability unproven"
+    },
+    {
+      "ts": "2026-06-13T13:04:33Z",
+      "action": "changed",
+      "field": "portcoSummary.trending",
+      "from": "down",
+      "to": "up",
+      "reason": "Net positive quarter: CFO hired, commercial recovering, team stabilized"
+    }
+  ]
+}
