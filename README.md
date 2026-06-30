@@ -4,6 +4,13 @@ Welcome, and thanks for making the time. This repo holds everything for the **li
 
 There's no trick and no hidden right answer. We want to see how you actually work: how you think out loud, how you handle an open-ended ask, and how you make decisions under a little time pressure. **Ask us questions** — we're your product owner for the session.
 
+## What we're looking for
+
+- **Think out loud.** Narrate your reasoning, your trade-offs, and the calls you're making as you make them. We care more about *why* than *what*.
+- **Ask questions.** The opening ask is deliberately open. Probe it before you build — who's the user, what does "done" look like in 90 minutes, what matters most. Charging ahead on unstated assumptions is the thing we're watching for.
+- **Show off your AI-native skills.** Use whatever AI tools you'd normally reach for. How you prompt, when you trust the output, and when you override it is signal we *want* to see — don't hide it.
+- **Export your prompt logs.** At the end, save your AI chat/prompt transcript and commit it into your fork alongside your work (e.g. `PROMPTS.md` or an export file). It's a real part of how you built this, and we'll read it.
+
 ## The world you're working in
 
 Everything centers on one fictional but realistic private-equity fund:
@@ -43,8 +50,8 @@ An AI system (think: a "second brain" for the fund) ingests each company's docum
 
 ## Getting started
 
-1. Clone this repo.
-2. Open your assigned challenge folder and read its `README.md`.
+1. **Fork this repo** to your own GitHub account, then clone *your fork* — that's where your work lives and what we'll review afterward.
+2. Open your assigned challenge folder and read its `README.md`. (Your facilitator assigns the challenge live — you don't need to pick ahead.)
 3. Poke around [`data/`](data/) (and, for Challenge C, the data + `DATA_DICTIONARY.md` inside that challenge's folder).
 4. **Use any stack and any tools you like** — including AI assistants. Build it the way you'd actually build it.
 5. If your challenge wants a live data endpoint:
@@ -54,5 +61,6 @@ An AI system (think: a "second brain" for the fund) ingests each company's docum
    cd data && python3 -m http.server 8080
    ```
 6. Some challenges can optionally call Claude. Copy `.env.example` to `.env`; we'll hand you a key at the start.
+7. **At the end:** commit your work *and* your prompt logs to your fork, and share the link. No need to open a PR — we'll review your fork directly.
 
 Have fun with it — we're looking forward to building with you.
