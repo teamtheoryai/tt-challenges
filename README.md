@@ -1,13 +1,13 @@
 # Team Theory — Paired Programming Challenges
 
-Welcome, and thanks for making the time. This repo holds everything for the **live paired-programming session**: a shared dataset and a set of self-contained challenges. Your facilitator will point you at **one** challenge — open that folder's `README.md` and we'll build together for ~90 minutes.
+Welcome, and thanks for making the time. This repo holds everything for the **live paired-programming session**: a shared dataset and a set of self-contained challenges. Your facilitator will point you at **one** challenge — open that folder's `README.md` and we'll build together for ~60 minutes.
 
 There's no trick and no hidden right answer. We want to see how you actually work: how you think out loud, how you handle an open-ended ask, and how you make decisions under a little time pressure. **Ask us questions** — we're your product owner for the session.
 
 ## What we're looking for
 
 - **Think out loud.** Narrate your reasoning, your trade-offs, and the calls you're making as you make them. We care more about *why* than *what*.
-- **Ask questions.** The opening ask is deliberately open. Probe it before you build — who's the user, what does "done" look like in 90 minutes, what matters most. Charging ahead on unstated assumptions is the thing we're watching for.
+- **Ask questions.** The opening ask is deliberately open. Probe it before you build — who's the user, what does "done" look like in 60 minutes, what matters most. Charging ahead on unstated assumptions is the thing we're watching for.
 - **Show off your AI-native skills.** Use whatever AI tools you'd normally reach for. How you prompt, when you trust the output, and when you override it is signal we *want* to see — don't hide it.
 - **Export your prompt logs.** At the end, save your AI chat/prompt transcript and commit it into your fork alongside your work (e.g. `PROMPTS.md` or an export file). It's a real part of how you built this, and we'll read it.
 

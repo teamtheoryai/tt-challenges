@@ -14,7 +14,7 @@ A defensible **data hierarchy + tenancy model** for fund → portco → executiv
 
 - **Share your screen** and keep it shared — schema sketches, code, terminal, all of it.
 - **Think out loud**, and be able to explain the shape in plain language: "when X happens, the data goes here, and when someone asks for Y, we read from there."
-- **Ask us anything** — how many portcos per fund, read- vs write-heavy, who sees what, what "done" looks like in 90 minutes.
+- **Ask us anything** — how many portcos per fund, read- vs write-heavy, who sees what, what "done" looks like in 60 minutes.
 - **Use any tools you like**, including AI assistants.
 - **Show off.** This is the foundation the whole product scales on. Build it the way you'd want to own it.
 

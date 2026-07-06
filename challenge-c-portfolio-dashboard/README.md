@@ -4,7 +4,7 @@
 
 > A DAW Capital talent partner wants to open **one screen** and understand the health of leadership across their whole portfolio. Build us that screen.
 
-That's intentionally open. Part of the session is you figuring out what that screen should actually be — so **ask us questions.** We're your product owner for the next 90 minutes.
+That's intentionally open. Part of the session is you figuring out what that screen should actually be — so **ask us questions.** We're your product owner for the next 60 minutes.
 
 ## The goal
 
@@ -36,4 +36,4 @@ A **functional, end-to-end slice**: read the data → serve it → render a real
 2. Start with `manifest.json`, resolve the latest snapshot per portco, and go.
 3. Optional AI feature (e.g. "summarize this portco's risks")? There's an `ANTHROPIC_API_KEY` slot in the repo-root `.env.example`; we'll hand you a key.
 
-Three portcos, multiple execs each, full performance/risk/succession signal per leader. Plenty to build something real with in 90 minutes.
+Three portcos, multiple execs each, full performance/risk/succession signal per leader. Plenty to build something real with in 60 minutes.
