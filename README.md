@@ -60,7 +60,7 @@ An AI system (think: a "second brain" for the fund) ingests each company's docum
    # or, no Docker:
    cd data && python3 -m http.server 8080
    ```
-6. Some challenges can optionally call Claude. Copy `.env.example` to `.env`; we'll hand you a key at the start.
+6. Some challenges can optionally call Claude. Copy `.env.example` to `.env`; if your challenge needs LLM calls, ask and we'll send you a scoped key.
 7. **When you're done:** commit your work *and* your prompt logs (`PROMPTS.md`) to your fork, and share the link. No need to open a PR — we'll review your fork directly. Then book your 60-minute review (link in your invite email).
 
 Have fun with it — we're looking forward to seeing what you build.
