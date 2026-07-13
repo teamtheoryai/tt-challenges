@@ -4,19 +4,19 @@
 
 > We're moving from serving funds to also serving every portfolio company underneath each fund. Our current data model assumes one tenant per organization. Help us figure out how the data should be structured so this works — and so it doesn't fall over when we have a fund with dozens of portcos under it.
 
-Intentionally open. Before you design anything, **ask us questions.** We're your product owner for the session.
+Intentionally open. Before you design anything, **ask us questions.** Reply to your assignment email any time while you're building — we're your product owner.
 
 ## The goal
 
 A defensible **data hierarchy + tenancy model** for fund → portco → executive/review, with the access-pattern and isolation trade-offs reasoned out loud. We want a migration path that **doesn't require a full app-layer rewrite**, and a clear story for how tenant isolation extends to a nested hierarchy. A running proof-of-concept of the schema and a couple of access patterns is a bonus, not the bar — the thinking is the point.
 
-## How we'll run it
+## How to approach it
 
-- **Share your screen** and keep it shared — schema sketches, code, terminal, all of it.
-- **Think out loud**, and be able to explain the shape in plain language: "when X happens, the data goes here, and when someone asks for Y, we read from there."
-- **Ask us anything** — how many portcos per fund, read- vs write-heavy, who sees what, what "done" looks like in 60 minutes.
-- **Use any tools you like**, including AI assistants.
-- **Show off.** This is the foundation the whole product scales on. Build it the way you'd want to own it.
+- **Timebox it to ~2–3 hours** and don't gold-plate it. What you choose to prove and what you deliberately cut is signal — scoping a fuzzy problem under a limit is part of what we're looking at.
+- **Think about the *why*, not just the *what*** — and be ready to walk us through your reasoning in the review, including the shape in plain language: "when X happens the data goes here, and when someone asks for Y we read from there."
+- **Ask us anything.** Reply to your assignment email any time while you're building — we're your product owner.
+- **Use any stack and tools you like, AI assistants included.** Commit your prompt logs to your fork as `PROMPTS.md` — how you work with AI is signal we *want* to see.
+- **Show off.** If you join, this is your platform. Build it the way you'd want to own it.
 
 ## Background & where to look
 

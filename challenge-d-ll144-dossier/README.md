@@ -6,7 +6,7 @@ This one is less "deploy a server," more "watch you think." It tests research ab
 
 > New York City has a law — Local Law 144 — about bias audits for automated tools used in hiring. Our customers are PE firms making hiring decisions, and we're the AI in the loop. Build us something that (1) explains how Team Theory complies today, and (2) proposes product features that reduce legal and compliance friction for a PE firm's in-house legal team.
 
-Intentionally open. **Ask us anything** about our data flows, our customers' workflows, and what legal teams actually push on. We're your product owner for the session.
+Intentionally open. **Ask us anything** about our data flows, our customers' workflows, and what legal teams actually push on. Reply to your assignment email any time while you're building — we're your product owner.
 
 ## The goal
 
@@ -16,13 +16,13 @@ A **document or artifact** — your choice of format (memo, spec, annotated diag
 
 We're evaluating depth of synthesis and product judgment — not Google skills. The primer below gives you the raw material; the signal is what you *do* with it.
 
-## How we'll run it
+## How to approach it
 
-- **Share your screen** — research, notes, drafting, all of it.
-- **Think out loud** — we want to hear you reason about *our* exposure, not just recite the statute.
-- **Ask us anything** — about our architecture, our customers, what trips up legal review.
-- **Use any tools you like**, including AI assistants and web search.
-- **Show off** — this is a real artifact we'll use. Treat it like one.
+- **Timebox it to ~2–3 hours** and don't over-polish. Depth of judgment matters more than length.
+- **Reason about *our* exposure, not just the statute** — and be ready to walk us through your thinking in the review.
+- **Ask us anything.** Reply to your assignment email any time while you're building — we're your product owner.
+- **Use any tools you like, AI assistants included.** Commit your prompt logs to your fork as `PROMPTS.md`.
+- **Show off.** This is a real artifact we need — whoever builds it best is producing something we'll use.
 
 ## Background — LL144 in brief
 
