@@ -1,0 +1,24 @@
+{
+  "_captured": "2026-07-10T18:47:31Z",
+  "_source": "contractor working branch · storage access policy draft (uploads bucket / pipeline reader)",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PipelineUploadsRead",
+      "Effect": "Allow",
+      "Action": ["s3:ListBucket"],
+      "Resource": ["arn:aws:s3:::uploads"]
+    },
+    {
+      "Sid": "TightenObjectAccessPendingReview",
+      "Effect": "Deny",
+      "Action": ["s3:GetObject"],
+      "Resource": ["arn:aws:s3:::uploads/*"],
+      "Condition": {
+        "StringNotLike": {
+          "aws:userid": "TO-BE-CONFIRMED-BEFORE-APPLY"
+        }
+      }
+    }
+  ]
+}

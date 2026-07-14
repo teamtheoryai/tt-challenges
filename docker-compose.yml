@@ -1,13 +1,139 @@
-# Zero-dependency static server for the shared dataset.
-# `docker compose up` serves ./data at http://localhost:8080
-# This exists so the data is reachable over HTTP without picking a stack for you.
-# Build your app however you like alongside it.
+# The Second Brain — local environment ("the box").
+# One command: `make up`. Everything runs here; nothing external is touched.
+#
+# infra/ holds the declared configuration each service boots from.
+
+name: second-brain
+
 services:
-  data:
-    image: python:3.12-slim
-    working_dir: /srv/data
-    volumes:
-      - ./data:/srv/data:ro
-    command: python -m http.server 8080
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: brain
+      POSTGRES_PASSWORD: brain
+      POSTGRES_DB: secondbrain
     ports:
-      - "8080:8080"
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./infra/db/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U brain -d secondbrain"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: minio-root
+      MINIO_ROOT_PASSWORD: minio-secret
+    ports:
+      - "9000:9000"   # S3 API
+      - "9001:9001"   # web console
+    volumes:
+      - miniodata:/data
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  minio-init:
+    image: minio/mc:latest
+    depends_on:
+      minio:
+        condition: service_healthy
+    entrypoint: ["/bin/sh", "/init/init.sh"]
+    volumes:
+      - ./infra/minio:/init:ro
+    restart: "no"
+
+  queue:
+    image: softwaremill/elasticmq-native:latest
+    ports:
+      - "9324:9324"
+    volumes:
+      - ./infra/elasticmq/elasticmq.conf:/opt/elasticmq.conf:ro
+
+  api:
+    build:
+      context: .
+      args: { APP: apps/api }
+    environment: &app-env
+      DATABASE_URL: postgres://app_user:app_pass@db:5432/secondbrain
+      DATABASE_URL_ADMIN: postgres://brain:brain@db:5432/secondbrain
+      S3_ENDPOINT: http://minio:9000
+      S3_REGION: us-east-1
+      S3_BUCKET: uploads
+      S3_ACCESS_KEY: api-svc
+      S3_SECRET_KEY: api-secret2026
+      SQS_ENDPOINT: http://queue:9324
+      QUEUE_INBOX: documents-inbox
+      QUEUE_CHUNKS: documents-chunks
+      AGENT_URL: http://agent:4100
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    ports:
+      - "4000:4000"
+    depends_on:
+      db: { condition: service_healthy }
+      minio-init: { condition: service_completed_successfully }
+      queue: { condition: service_started }
+
+  agent:
+    build:
+      context: .
+      args: { APP: apps/agent }
+    environment: *app-env
+    ports:
+      - "4100:4100"
+    depends_on:
+      db: { condition: service_healthy }
+
+  pipeline:
+    build:
+      context: .
+      args: { APP: apps/pipeline }
+    environment:
+      <<: *app-env
+      S3_ACCESS_KEY: pipeline-svc
+      S3_SECRET_KEY: pipeline-secret2026
+    depends_on:
+      db: { condition: service_healthy }
+      minio-init: { condition: service_completed_successfully }
+      queue: { condition: service_started }
+
+  seeder:
+    # One-shot: on first boot, uploads the data/ corpus through the real
+    # pipeline (S3 -> queue -> reader -> chunker), so the box starts with
+    # every portco document ingested the same way a user upload flows.
+    build:
+      context: .
+      args: { APP: apps/seeder }
+    environment:
+      <<: *app-env
+      S3_ACCESS_KEY: api-svc
+      S3_SECRET_KEY: api-secret2026
+    volumes:
+      - ./data:/repo/data:ro
+    depends_on:
+      db: { condition: service_healthy }
+      minio-init: { condition: service_completed_successfully }
+      queue: { condition: service_started }
+    restart: "no"
+
+  web:
+    build:
+      context: .
+      args: { APP: apps/web }
+    environment:
+      API_PROXY_TARGET: http://api:4000
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api
+
+volumes:
+  pgdata:
+  miniodata:

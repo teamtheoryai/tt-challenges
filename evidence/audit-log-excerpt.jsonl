@@ -1,0 +1,9 @@
+{"eventTime":"2026-07-10T15:02:11Z","eventName":"ListObjects","userIdentity":{"userName":"j.moreau"},"requestParameters":{"bucketName":"uploads"},"sourceIPAddress":"10.40.2.17"}
+{"eventTime":"2026-07-10T15:41:56Z","eventName":"GetBucketPolicy","userIdentity":{"userName":"j.moreau"},"requestParameters":{"bucketName":"uploads"},"sourceIPAddress":"10.40.2.17"}
+{"eventTime":"2026-07-10T16:20:03Z","eventName":"ConsoleLogin","userIdentity":{"userName":"j.moreau"},"additionalEventData":{"MFAUsed":"Yes"}}
+{"eventTime":"2026-07-10T17:58:44Z","eventName":"PutUserPolicy","userIdentity":{"userName":"j.moreau"},"requestParameters":{"userName":"pipeline-svc","policyName":"pipeline-policy"},"sourceIPAddress":"10.40.2.17"}
+{"eventTime":"2026-07-10T18:03:19Z","eventName":"GetObject","userIdentity":{"userName":"pipeline-svc"},"requestParameters":{"bucketName":"uploads","key":"org-3/…/360-feedback-2026.md"},"errorCode":"AccessDenied","sourceIPAddress":"10.40.3.9"}
+{"eventTime":"2026-07-10T18:04:41Z","eventName":"GetObject","userIdentity":{"userName":"pipeline-svc"},"requestParameters":{"bucketName":"uploads","key":"org-3/…/360-feedback-2026.md"},"errorCode":"AccessDenied","sourceIPAddress":"10.40.3.9"}
+{"eventTime":"2026-07-10T18:31:27Z","eventName":"PutUserPolicy","userIdentity":{"userName":"j.moreau"},"requestParameters":{"userName":"api-svc","policyName":"api-policy"},"sourceIPAddress":"10.40.2.17"}
+{"eventTime":"2026-07-10T18:47:31Z","eventName":"GetUserPolicy","userIdentity":{"userName":"j.moreau"},"requestParameters":{"userName":"pipeline-svc"},"sourceIPAddress":"10.40.2.17"}
+{"eventTime":"2026-07-10T19:22:02Z","eventName":"ConsoleLogout","userIdentity":{"userName":"j.moreau"}}
