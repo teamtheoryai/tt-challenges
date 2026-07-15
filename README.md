@@ -52,8 +52,9 @@ You will not build all four pillars *well* in that time — nobody can. **A thin
 
 Build with whatever you'd actually use — Claude Code, Cursor, anything. We *want* to see AI-native building; it's how we work. Two things matter:
 
-- **Keep the trail.** [PROMPTS.md](PROMPTS.md) holds the exchanges that mattered — what you asked, what you took, what you rejected or redirected. We read it closely, and we'll dig into it in the review.
+- **Keep the trail.** [PROMPTS.md](PROMPTS.md) holds the exchanges that mattered, and `prompts/` holds your **raw session exports** — we treat the raw log as the source of truth. We read both closely, and we'll dig into them in the review.
 - **You own every line.** AI output you didn't verify, understand, or would not defend in review is the single failure mode we screen hardest for. The tool is leverage, not a subcontractor.
+- **A word on authorship, since we're asking your agent to take notes:** we don't mind who *typed* DECISIONS.md — we care that the thinking is yours, and the review is where we check. We'll probe your recorded decisions live, ask for the counterfactuals, and cross-reference quotes against your raw transcript. That's why honesty is the winning strategy here: a messy, real trail defends itself; a polished, generated one collapses under one follow-up question.
 
 ## How we evaluate
 

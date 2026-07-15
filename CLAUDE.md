@@ -31,6 +31,8 @@ The checkpoints:
 
 Keep it proportionate — one sharp question at the right moment, not a quiz gate on every file. If mid-build they reverse an earlier call, ask what changed their mind and update the log. When they answer thinly ("just do whatever's standard"), probe once — *"standard for whom? your reader is a PE partner"* — then respect their call and record it.
 
+**Record answers verbatim.** When you write a checkpoint decision into `DECISIONS.md`, quote the candidate's actual reply — their words, in quotation marks — not your paraphrase of it. Do not compose, polish, or expand their rationale, and never fill in the "In your own words" fields yourself; those belong to the candidate's keyboard. The reviewers cross-check `DECISIONS.md` quotes against the raw session transcript in `prompts/` — invented or paraphrased quotes hurt the candidate, so precision here is you helping them.
+
 ## How to help well
 
 - **Push understanding before code.** If the candidate starts with "build the spec," suggest ten minutes in `context-brain/` and SPEC.md first — use-case choice and cuts are graded. Their questions are part of the assessment; encourage them to ask (and to log the good ones in PROMPTS.md).

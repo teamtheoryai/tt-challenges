@@ -20,7 +20,7 @@ What we're reading for:
 - Where you **overrode or redirected** it — the moments the tool was wrong and you caught it
 - What you asked to **understand the customer and the problem**, not just to produce code
 
-Full transcript exports are welcome (in this file or alongside as `prompts/`). Don't sanitize — dead ends and wrong turns read as experience, not failure. An empty or reconstructed-after-the-fact trail is the only bad version of this file.
+**Commit the raw session export too.** Claude Code, Cursor, and friends can export full session transcripts — drop them in `prompts/` as-is. **We treat the raw log as the source of truth** and this file as your annotated index on top of it. Don't sanitize the export: dead ends, tool errors, and wrong turns read as experience, not failure. A trail with no wrong turns and no timestamps reads as reconstructed — the only bad version of this file.
 
 ---
 
