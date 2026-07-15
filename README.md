@@ -65,6 +65,7 @@ We read your submission the way we'd read a founding engineer's first week:
 4. **The questions you asked.** Of us, of the brain, in your prompts — did you interrogate the problem like an owner?
 5. **Decisions & honesty.** DECISIONS.md tells a coherent story: what you cut, why, and what you'd do next. Claimed-but-broken costs more than cut-and-said-so.
 6. **How you drove the AI.** PROMPTS.md + commit history read as one story of delegation, verification, and override.
+7. **How far you took it.** The spec is the floor, not the ceiling. The strongest submissions add something we never asked for, because the builder saw it mattered: a small design system or component library instead of default styling; a data model rethought from first principles rather than the obvious tables; an extra feature you can argue drives the business case; research beyond this repo on the ICP or the market that visibly shaped your calls. To be clear about the tension with "don't gold-plate": gold-plating is polishing what was asked for; taste is adding the unasked-for thing that matters. One of these done with intent beats all of them done thin, and none of them excuse a broken core slice.
 
 No hidden tricks, no planted bugs, no points for suffering.
 

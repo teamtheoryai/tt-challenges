@@ -55,3 +55,7 @@ A surface that makes the system legible at a glance. Deliberately the loosest pi
 A **thin slice, end to end**: corpus ingested → a grounded, cited conversation → one document generated and saved → visible on a dashboard. All four pillars touched at *must* level beats any pillar polished to *could*. Cuts are expected and graded as decisions — record them in [DECISIONS.md](DECISIONS.md).
 
 We will run it: clean clone → `make up` → your documented steps. If it needs a hand-holding sequence, document the sequence; undocumented magic counts against, documented pragmatism counts for.
+
+## Beyond the spec
+
+This spec is the floor. Once the core slice works, the submissions that stand out take it somewhere we didn't ask for — a real component library or mini design system, a data model argued from first principles, one extra capability chosen because it drives the *business* case, market or ICP research that changed a decision. If you go there, say so in [DECISIONS.md](DECISIONS.md): what you added, why it mattered more than polishing, and what it cost you. Unasked-for judgment is a feature; unasked-for polish is not.
