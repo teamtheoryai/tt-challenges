@@ -3,14 +3,13 @@
 COMPOSE ?= docker compose
 SVC ?=
 
-.PHONY: help up down reset ps status logs psql checklist import-state inject-live
+.PHONY: help up down reset ps status logs psql checklist inject-live
 
 help: ## List available commands
 	@grep -E '^[a-z-]+:.*##' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  \033[1m%-14s\033[0m %s\n", $$1, $$2}'
 
-up: ## Build + start the whole stack (imports environment state if present)
+up: ## Build + start the whole stack
 	$(COMPOSE) up -d --build
-	@./scripts/import-state.sh
 	@echo ""
 	@echo "  app      → http://localhost:5173"
 	@echo "  api      → http://localhost:4000/api/status"
@@ -22,7 +21,7 @@ up: ## Build + start the whole stack (imports environment state if present)
 down: ## Stop everything (keeps data volumes)
 	$(COMPOSE) down
 
-reset: ## Wipe volumes and start over — restores the original environment state
+reset: ## Wipe volumes and rebuild — restores the original (broken) state from source
 	$(COMPOSE) down -v
 	$(MAKE) up
 
@@ -40,9 +39,6 @@ psql: ## SQL shell into the running database
 
 checklist: ## Automated pass over ACCEPTANCE.md items 1, 2, 4, 5 (3 and 6 are yours)
 	$(COMPOSE) exec api node scripts/checklist.mjs
-
-import-state: ## (Re)import environment state snapshots from state/ if present
-	@./scripts/import-state.sh
 
 inject-live: ## Reviewer use only, during the live review: make inject-live PACK=<file>
 	@./scripts/inject-live.sh $(PACK)

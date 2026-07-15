@@ -58,6 +58,5 @@ Topology declared in `infra/elasticmq/elasticmq.conf`: `documents-inbox` and `do
 
 - **Isolation is a database property.** Nothing in the app layer filters orgs by hand; every user-facing query runs as `app_user` with `app.user_id` set, and RLS does the rest. If isolation is broken, the database is where to look first.
 - **Declared vs. running.** `infra/` is what *should* be true; the containers hold what *is* true. The gap between the two is a real thing to check: `pg_policies` vs. `002_rls.sql`, the MinIO console vs. `infra/minio/*.json`, live queue attributes vs. `elasticmq.conf`.
-- **Environment state.** `state/` may carry opaque runtime snapshots imported at `make up` (see `state/README.md`).
 - **`data/` vs. `context-brain/`.** `data/` is what the app ingests and serves (the portco documents). `context-brain/` is reference for *you* — customer and product context. The app never reads `context-brain/`.
 - **Ports:** web 5173 · api 4000 · agent 4100 · db 5432 · minio 9000/9001 · queue 9324.
