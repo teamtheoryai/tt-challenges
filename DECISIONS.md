@@ -2,6 +2,8 @@
 
 Keep this as you go, not from memory at the end. Alongside your code and [PROMPTS.md](PROMPTS.md), it's the main thing we read. Short and honest beats polished.
 
+> If you're building with an AI agent, it's been asked ([CLAUDE.md](CLAUDE.md)) to pause at key decision points and put the call to **you** — use case, cuts, data model, pipeline shape, grounding, the trust surface. Its notes land here; make sure the reasoning recorded is genuinely yours, in your words.
+
 ## How to run what I built
 
 Exact steps from a clean clone. We follow these literally.
