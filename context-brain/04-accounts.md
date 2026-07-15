@@ -17,7 +17,7 @@
 | **PC2** | **Cascade Health** | Multi-site healthcare services | The most data-rich portco; active CFO search |
 | **PC3** | **Ridgeline Logistics** | Third-party logistics (3PL) | Where the talent-review provenance issue surfaces |
 
-> The three portcos are separate tenants. A Vantage user must never see Cascade or Ridgeline data — that isolation is the point of checklist item 4, and the reason the Portco Workspace can exist at all.
+> The three portcos are separate tenants. A Vantage user must never see Cascade or Ridgeline data — that isolation is our customers' #1 gate, and the reason the Portco Workspace can exist at all. It's why document-to-org provenance belongs in your data model from the first migration.
 
 ## Peer accounts — "customers like ours"
 

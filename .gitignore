@@ -9,5 +9,3 @@ __pycache__/
 .venv/
 venv/
 
-# Live-review scratch
-.tt-live/

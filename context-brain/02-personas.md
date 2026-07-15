@@ -31,7 +31,7 @@ Sponsors deals; sits on portco boards; votes at the investment committee. Rarely
 
 - **What she wants:** a decision she can trust in about ten minutes, and evidence she can point to if it goes wrong.
 - **What she fears:** being embarrassed at IC by a number she can't source. Approving a hire on a score that turns out to be built on sand.
-- **Why she matters to an engineer:** she is who "**defensible at IC**" is about. She is the reader of the talent review who never touches the UI — so the *output* has to carry its own credibility. When Part 2 asks you to make the talent review defensible, **she is the person you're designing for.**
+- **Why she matters to an engineer:** she is who "**defensible at IC**" is about. She is the reader of the product's output who never touches the UI — so the *output* has to carry its own credibility. When you're deciding what a generated document needs around it to be trusted, **she is the person you're designing for.**
 
 ## 4. The Talent Associate — the power user
 
@@ -43,7 +43,7 @@ Dana's leverage. Does the day-to-day: sets up searches, uploads documents, chase
 - **What they fear:** silent failures — a document that "uploaded" but never got processed, so an assessment is missing a reference nobody noticed was gone.
 - **Why they matter to an engineer:** they feel every pipeline glitch first. An upload stuck at "Processing" and a status that only moves on a hard refresh are *their* daily pain. When you fix the ingestion path, you're fixing Sam's job.
 
-## How the personas map to the challenge
+## How the personas map to what you build
 
-- **Part 1 triage** — the personas tell you *severity*. Something that makes the app unusable for Dana and Sam is loud and urgent. Something that quietly corrupts what Priya reads at IC has no one complaining at all — and costs the most, in the highest-stakes room. Severity is about who is hurt and what they decide, not about noise volume.
-- **Part 2 "defensible at IC"** — you're designing for **Priya** (the reader who must trust it) by way of **Dana** (who has to defend it in the room). If your feature helps them interrogate and stand behind a score, it works. If it just adds polish, it doesn't.
+- **Choosing your use case** — Sam is your heaviest chat-and-generate user (profiles, comparisons, first drafts); Dana is who takes a generated document into a real decision; Priya is who that document ultimately has to convince. A feature that helps Sam produce what Dana can defend to Priya is on the money.
+- **Judging what matters** — something that breaks the app is loud and hurts Dana and Sam; something that quietly makes an output *wrong* has no one complaining at all — and costs the most, in the highest-stakes room. Weight your effort by who is hurt and what they're deciding, not by noise.

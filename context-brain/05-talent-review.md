@@ -1,6 +1,6 @@
 # The talent review — deep context
 
-*Fictional. The product's highest-stakes output, and the direct subject of the Part 2 brief. Read this before designing anything for Part 2.*
+*Fictional. The product's highest-stakes output — and the richest source of use cases for what your brain should generate. Read this before choosing what to build.*
 
 ## What it is
 
@@ -24,7 +24,7 @@ A talent-review score isn't a dashboard metric. It's an assertion about a specif
 - **A wrong score is worse than no score.** An empty cell prompts a question. A confident, wrong number gets *acted on* — a good operator gets managed out, or a weak one gets left in place — before anyone checks the foundation. This is the failure the product exists to prevent.
 - **The evidence is uneven.** Some scores rest on three independent reference calls and a year of board observation. Others rest on one interview and a candidate-supplied reference. **These should not look the same on the page**, and today they often do.
 
-That last point is the crux of the Part 2 brief: *"partners don't fully trust a talent-review score they can't interrogate — make the talent review something a partner could defend at their investment committee."* You're being asked to close the gap between *a number* and *a number you can stand behind in a hostile room.*
+That last point is the crux of what this product is for: partners don't fully trust a score — or a generated document — they can't interrogate. The gap worth closing is the one between *a number* and *a number you can stand behind in a hostile room.*
 
 ## The provenance problem
 
@@ -37,7 +37,7 @@ A score is only as trustworthy as the evidence lineage beneath it. Two ways that
 
 Either way the review reports a confident number built on compromised evidence — exactly the thing Priya can't afford to repeat at IC. And no status dashboard will ever flag it: every service shows green, the app "works," and the output is wrong. In this product, "working" means *the output is true*, not just *the app runs*.
 
-## What a strong Part 2 answer tends to do
+## What a strong generated document tends to do
 
 (Not a rubric — orientation. There's no single right build.)
 
@@ -45,6 +45,6 @@ Either way the review reports a confident number built on compromised evidence �
 - **Distinguishes reliability** — independent/corroborated evidence is weighted and shown differently from self-selected/un-corroborated evidence.
 - Lets a reader **drill from a number to its sources** and back — the interrogation path Priya needs.
 - Surfaces **confidence and gaps honestly** — "this score rests on one un-corroborated reference" is more valuable than a clean-looking number.
-- Ideally, **connects to what Part 1 taught them** — the strongest answers notice that the feature they're designing is the kind of thing that catches the failures a green dashboard can't.
+- Ideally, **treats trust as the feature** — the strongest builds notice that evidence, provenance, and honest gaps are what make a generated document worth keeping, and design for them from the start.
 
 A weak answer adds polish — nicer charts, more filters — without touching the reason the number can't be trusted. The brief is about **trust and defensibility**, not presentation.

@@ -1,44 +1,34 @@
-# The Second Brain — one command to run everything. `make help` lists targets.
+# Lifecycle for the backing services. Extend freely — keep `make up` the entry point.
 
 COMPOSE ?= docker compose
 SVC ?=
 
-.PHONY: help up down reset ps status logs psql checklist inject-live
+.PHONY: help up down reset ps logs psql
 
 help: ## List available commands
-	@grep -E '^[a-z-]+:.*##' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  \033[1m%-14s\033[0m %s\n", $$1, $$2}'
+	@grep -E '^[a-z-]+:.*##' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  \033[1m%-8s\033[0m %s\n", $$1, $$2}'
 
-up: ## Build + start the whole stack
+up: ## Start the backing services (Postgres+pgvector :5432, MinIO :9000/:9001, ElasticMQ :9324)
 	$(COMPOSE) up -d --build
 	@echo ""
-	@echo "  app      → http://localhost:5173"
-	@echo "  api      → http://localhost:4000/api/status"
-	@echo "  minio    → http://localhost:9001  (minio-root / minio-secret)"
+	@echo "  postgres  → localhost:5432  (brain / brain, db: secondbrain)"
+	@echo "  minio     → localhost:9000  (console :9001 — minio-root / minio-secret)"
+	@echo "  queue     → localhost:9324  (SQS-compatible)"
 	@echo ""
-	@echo "  First boot ingests the data/ corpus — give it a couple of minutes."
-	@echo "  Then work ACCEPTANCE.md. 'make status' for a health readout."
+	@echo "  All empty. Schema, buckets, queues — and the product — are yours. See SPEC.md."
 
 down: ## Stop everything (keeps data volumes)
 	$(COMPOSE) down
 
-reset: ## Wipe volumes and rebuild — restores the original (broken) state from source
+reset: ## Wipe volumes and start clean
 	$(COMPOSE) down -v
 	$(MAKE) up
 
 ps: ## Show container states
 	$(COMPOSE) ps
 
-status: ## One-shot health + queue readout (from the API's status endpoint)
-	@curl -s http://localhost:4000/api/status | python3 -m json.tool || curl -s http://localhost:4000/api/status
-
-logs: ## Tail logs — all services, or one with SVC=name (e.g. make logs SVC=pipeline)
+logs: ## Tail logs — all services, or one with SVC=name
 	$(COMPOSE) logs -f --tail=100 $(SVC)
 
 psql: ## SQL shell into the running database
 	$(COMPOSE) exec db psql -U brain -d secondbrain
-
-checklist: ## Automated pass over ACCEPTANCE.md items 1, 2, 4, 5 (3 and 6 are yours)
-	$(COMPOSE) exec api node scripts/checklist.mjs
-
-inject-live: ## Reviewer use only, during the live review: make inject-live PACK=<file>
-	@./scripts/inject-live.sh $(PACK)

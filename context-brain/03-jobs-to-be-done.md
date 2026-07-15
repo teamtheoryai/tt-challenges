@@ -26,7 +26,7 @@ The output is the **assessment** — the document a deal partner reads before ap
 
 > When I take a hire (or a portfolio-talent call) to the investment committee, I want every claim to trace back to its source, so I can stand behind it when a partner pushes and not get caught out by a number I can't explain.
 
-This is the **defensibility** job, and it's where trust is won or lost. A score that can't be traced is worse than no score — it looks rigorous and isn't. "Defensible at IC" (the Part 2 brief) lives here: the reader must be able to interrogate the conclusion, not just receive it.
+This is the **defensibility** job, and it's where trust is won or lost. A score that can't be traced is worse than no score — it looks rigorous and isn't. "Defensible at IC" lives here: the reader must be able to interrogate the conclusion, not just receive it.
 
 ## JTBD 5 — Monitor portfolio talent
 
@@ -36,4 +36,4 @@ The output is the **talent review**: every exec across every portco, scored, wit
 
 ## The through-line for an engineer
 
-These five jobs are one continuous chain — **define → assess → decide → defend → monitor** — and the currency running through all of them is **trustworthy, traceable evidence.** Every job degrades the same way: if the evidence behind a score can't be trusted or traced, the scorecard is theatre, the assessment misleads, the decision is blind, the IC defense collapses, and the talent review reports fiction with confidence. When you're deciding what "working" means in this repo — or what to build in Part 2 — this chain is why provenance is the product, not a nice-to-have.
+These five jobs are one continuous chain — **define → assess → decide → defend → monitor** — and the currency running through all of them is **trustworthy, traceable evidence.** Every job degrades the same way: if the evidence behind a score can't be trusted or traced, the scorecard is theatre, the assessment misleads, the decision is blind, the IC defense collapses, and the talent review reports fiction with confidence. When you're deciding what your generated documents need around them to be trusted, this chain is why provenance is the product, not a nice-to-have.

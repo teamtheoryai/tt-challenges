@@ -1,6 +1,8 @@
-# PROMPTS.md — your AI trail
+# PROMPTS — your AI trail
 
-How you drive AI tools is part of what we assess — we *want* you using them, and we want to see how. Keep this file honest and lightweight: paste or export the prompts/exchanges that mattered, as you go.
+How you drive AI tools is part of what we assess — we *want* you using them, and we want to see how. Keep this honest and lightweight: paste or export the exchanges that mattered, as you go.
+
+This includes the **questions you asked** — of the [context-brain/](context-brain/), of your tools about the problem itself, of us by email. An engineer interrogating "who is this for and what makes it trustworthy?" before building reads very differently from one who opened with "build the thing."
 
 For each significant exchange, a short entry like:
 
@@ -14,11 +16,11 @@ For each significant exchange, a short entry like:
 What we're reading for:
 
 - What you **delegated** to the tool vs. kept for yourself
-- Whether you **verified** its claims before acting on them (and how)
+- Whether you **verified** its output before building on it (and how)
 - Where you **overrode or redirected** it — the moments the tool was wrong and you caught it
-- What context you chose to **feed** it (files, logs, live-system output)
+- What you asked to **understand the customer and the problem**, not just to produce code
 
-Full transcript exports are welcome (drop them in this file or alongside it as `prompts/`). Don't sanitize — dead ends and wrong turns are normal and read as experience, not failure. An empty or reconstructed-after-the-fact trail is the only bad version of this file.
+Full transcript exports are welcome (in this file or alongside as `prompts/`). Don't sanitize — dead ends and wrong turns read as experience, not failure. An empty or reconstructed-after-the-fact trail is the only bad version of this file.
 
 ---
 

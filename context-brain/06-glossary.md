@@ -29,7 +29,7 @@
 
 - **The Second Brain** — the fund-level platform: ingest documents, ask questions across the portfolio, generate scorecards / assessments / the talent review.
 - **Portco Workspace** — the scoped, portco-level product ($8–15K/portco) that sits under a fund; a portco sees only its own data.
-- **Talent review** — the portfolio-wide leadership-health output; the subject of the Part 2 brief. See `05-talent-review.md`.
+- **Talent review** — the portfolio-wide leadership-health output; the product's highest-stakes artifact. See `05-talent-review.md`.
 - **Search** — one hiring effort for one role (e.g. "Cascade CFO search"). Has a status: open, in-progress, closed.
 - **Candidate** — a person being assessed in a search.
 - **Provenance / lineage** — the traceable chain from a score back to the specific evidence it rests on. The property that makes a score *defensible*.
