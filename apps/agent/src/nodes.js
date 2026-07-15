@@ -1,6 +1,6 @@
 import pg from 'pg';
 import Anthropic from '@anthropic-ai/sdk';
-import { embed, toSqlVector } from '@second-brain/shared/embedding';
+import { embed, toSqlVector, tokenize } from '@second-brain/shared/embedding';
 
 // The agent reads through the same RLS boundary as the API: queries run as
 // app_user with app.user_id set, so retrieval can only surface chunks the
@@ -29,6 +29,10 @@ export function routeAfterPrepare(state) {
 }
 
 // ── Node: retrieve ──────────────────────────────────────────────────────────
+// Two-stage: pgvector recall (top 16), then a lexical rerank against the
+// question with a relative score floor. Only chunks that clear the floor are
+// returned — a passage the answer can't actually lean on must not surface as
+// a citation.
 export async function retrieve(state) {
   const queryVec = toSqlVector(embed(state.question));
   const rows = await asUser(state.userId, async (db) => {
@@ -40,12 +44,26 @@ export async function retrieve(state) {
        join documents d on d.id = ch.document_id
        join orgs o on o.id = ch.org_id
        order by ch.embedding <=> $1::vector
-       limit 8`,
+       limit 16`,
       [queryVec]
     );
     return rows;
   });
-  return { chunks: rows };
+
+  const qTokens = new Set(tokenize(state.question));
+  const scored = rows
+    .map((r) => {
+      const cTokens = new Set(tokenize(r.content));
+      let hit = 0;
+      for (const t of qTokens) if (cTokens.has(t)) hit++;
+      const overlap = qTokens.size ? hit / qTokens.size : 0;
+      return { ...r, score: 0.6 * Number(r.similarity) + 0.4 * overlap };
+    })
+    .sort((a, b) => b.score - a.score);
+
+  const top = scored[0]?.score ?? 0;
+  const kept = scored.filter((c) => c.score >= Math.max(0.12, top * 0.55)).slice(0, 4);
+  return { chunks: kept };
 }
 
 // ── Node: answer ────────────────────────────────────────────────────────────
@@ -73,7 +91,7 @@ export async function answer(state) {
     org: ch.org_name,
     chunkSeq: ch.seq,
     excerpt: ch.content.length > 320 ? `${ch.content.slice(0, 320)}…` : ch.content,
-    similarity: Number(ch.similarity?.toFixed?.(3) ?? ch.similarity),
+    relevance: Number(ch.score?.toFixed?.(3) ?? ch.score),
   }));
 
   if (process.env.ANTHROPIC_API_KEY) {
