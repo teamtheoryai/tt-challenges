@@ -27,7 +27,7 @@ Be aware: **the questions you ask — of the brain, of us — are part of what w
 
 ## Quick start
 
-You need Docker Desktop (or compatible), ~4GB free, and an **Anthropic API key** — reply to your invite email and we'll send a scoped, spend-capped key. Everything runs locally; nothing else is required.
+You need Docker Desktop (or compatible), ~4GB free, and an **Anthropic API key** (Your Claude Subscription key would work too). Everything runs locally; nothing else is required.
 
 ```bash
 git clone <your repo>
