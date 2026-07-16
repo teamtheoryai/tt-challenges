@@ -22,6 +22,8 @@ What we're reading for:
 
 **Commit the raw session export too.** Claude Code, Cursor, and friends can export full session transcripts — drop them in `prompts/` as-is. **We treat the raw log as the source of truth** and this file as your annotated index on top of it. Don't sanitize the export: dead ends, tool errors, and wrong turns read as experience, not failure. A trail with no wrong turns and no timestamps reads as reconstructed — the only bad version of this file.
 
+> **If you use Claude Code, this is already wired up for you.** A `Stop` + `SessionEnd` hook (`.claude/settings.json` → `scripts/export-transcript.sh`) copies each session's full transcript into `prompts/raw-session-<id>.jsonl` automatically — no manual export. Just commit what lands there. On another tool, export by hand into the same folder. Either way, the raw logs are yours and we read them; the hook only removes the step where you forget.
+
 ---
 
 *(your entries start here)*
