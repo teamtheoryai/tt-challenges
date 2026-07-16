@@ -1,21 +1,21 @@
 # Account profiles
 
-*Entirely fictional. The fund in the box, plus a few peer accounts so "customers like ours" is concrete. No resemblance to any real client is intended.*
+*Entirely fictional. The fund in the box, plus a few peer accounts so "customers like ours" is concrete. No resemblance to any real client is intended. The DAW facts below track the `data/` corpus (the authoritative source of truth for the fund in the box); the peer accounts are illustrative sketches with no corpus of their own.*
 
 ## DAW Capital — the fund in this repo
 
-- **Profile:** mid-market buyout fund, ~$1.4B AUM, founded 2009, based in Chicago. ~14 active portfolio companies across healthcare services, tech-enabled services, and industrials. Typical hold 4–6 years.
-- **Talent function:** led by **Dana Whitfield**, Operating Partner for Talent, with one associate (**Sam Okonkwo**). Deal partners include **Priya Anand**. Runs 6–10 senior searches a year.
+- **Profile:** lower-middle-market buyout fund, ~$680M AUM (Fund I 2019 + Fund II 2023), founded 2018, based in Denver. Three Fund II platform companies across healthcare, IT/managed services, and logistics. Typical hold 4–6 years.
+- **Talent function:** led by **Hema Varadarajan**, Operating Partner (Human Capital & Talent), with one associate (**Sam Iyer**). Deal decisions run through the Investment Committee, chaired by Managing Partner **Dana Deline**. Runs 6–10 senior searches a year.
 - **Why they bought:** got burned on a portfolio CFO mis-hire in 2023 that cost ~15 months and a chunk of the deal's return. Wanted their hiring judgment made repeatable and their decisions defensible at IC.
-- **How they use the Second Brain:** all C-suite searches run through it; the talent review is presented at the semi-annual portfolio review. Early on the Portco Workspace with two portcos (Cascade Health, Vantage IT).
+- **How they use the Second Brain:** all C-suite searches run through it; the talent review is presented at the semi-annual portfolio review. Early on the Portco Workspace with two portcos (Cascade Care Group, Vantage Managed Services).
 
 ### DAW's portfolio companies (the portcos in `data/`)
 
 | Code | Company | Sector | Note |
 |---|---|---|---|
-| **PC1** | **Vantage IT** | Managed IT services (MSP) | Roll-up of regional MSPs; hiring a VP Sales |
-| **PC2** | **Cascade Health** | Multi-site healthcare services | The most data-rich portco; active CFO search |
-| **PC3** | **Ridgeline Logistics** | Third-party logistics (3PL) | Where the talent-review provenance issue surfaces |
+| **PC1** | **Vantage Managed Services** | IT / managed services (MSP) | Roll-up of regional MSPs; CTO flight-risk is the top EV exposure |
+| **PC2** | **Cascade Care Group** | Healthcare provider services | The most data-rich portco; the escalate case — COO retention is the critical risk |
+| **PC3** | **Ridgeline Freight & Logistics** | Transportation & logistics (3PL) | The healthy team; orderly founder-CEO succession is the defining task |
 
 > The three portcos are separate tenants. A Vantage user must never see Cascade or Ridgeline data — that isolation is our customers' #1 gate, and the reason the Portco Workspace can exist at all. It's why document-to-org provenance belongs in your data model from the first migration.
 
