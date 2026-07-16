@@ -10,11 +10,11 @@ It rolls up from everything the fund has captured — scorecards, assessments, r
 
 ## Who reads it, and where
 
-- **The talent partner (Dana)** builds it and owns it.
-- **Deal partners and GPs (Priya)** read it at the **semi-annual portfolio review** and at individual **portco board meetings**.
+- **The talent partner (Hema)** builds it and owns it.
+- **Deal partners and GPs (Dana)** read it at the **semi-annual portfolio review** and at individual **portco board meetings**.
 - Ultimately it informs **investment-committee-level** conversations: whether to back a management team, where to intervene, whether a leadership gap threatens the deal thesis.
 
-The reader who matters most is the one who **doesn't use the app** — the partner who encounters a single number ("Ridgeline's COO: 4.2 / 10 on operational rigor") in a slide at a board meeting and has to decide what to do about it.
+The reader who matters most is the one who **doesn't use the app** — the partner who encounters a single number ("the COO of a portco scores a 3 on Execution, against a target of 5") in a slide at a board meeting and has to decide what to do about it.
 
 ## Why "defensible" is the entire game
 
@@ -35,7 +35,7 @@ A score is only as trustworthy as the evidence lineage beneath it. Two ways that
 1. **Identity merge.** Two executives with the same or similar name get collapsed into one record, so one person's glowing reference lands on the other's score. The number looks well-supported; it's attached to the wrong human.
 2. **Source-reliability blindness.** A reference the *candidate* chose and introduced is treated as equal in weight to one the fund sourced independently and back-channeled. Independent, corroborated evidence and self-selected, un-corroborated evidence get averaged into the same score with no distinction.
 
-Either way the review reports a confident number built on compromised evidence — exactly the thing Priya can't afford to repeat at IC. And no status dashboard will ever flag it: every service shows green, the app "works," and the output is wrong. In this product, "working" means *the output is true*, not just *the app runs*.
+Either way the review reports a confident number built on compromised evidence — exactly the thing Dana can't afford to repeat at IC. And no status dashboard will ever flag it: every service shows green, the app "works," and the output is wrong. In this product, "working" means *the output is true*, not just *the app runs*.
 
 ## What a strong generated document tends to do
 
@@ -43,7 +43,7 @@ Either way the review reports a confident number built on compromised evidence �
 
 - Makes **evidence visible next to the score** — you can see what the number rests on without leaving the screen.
 - **Distinguishes reliability** — independent/corroborated evidence is weighted and shown differently from self-selected/un-corroborated evidence.
-- Lets a reader **drill from a number to its sources** and back — the interrogation path Priya needs.
+- Lets a reader **drill from a number to its sources** and back — the interrogation path Dana needs.
 - Surfaces **confidence and gaps honestly** — "this score rests on one un-corroborated reference" is more valuable than a clean-looking number.
 - Ideally, **treats trust as the feature** — the strongest builds notice that evidence, provenance, and honest gaps are what make a generated document worth keeping, and design for them from the start.
 
